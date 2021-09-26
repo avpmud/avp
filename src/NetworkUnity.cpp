@@ -1,0 +1,6 @@
+#include "network/Socket.cpp"
+#include "network/ANSI.cpp"
+#include "network/Connection.cpp"
+#include "network/ListenerConnection.cpp"
+#include "network/TelnetConnection.cpp"
+#include "network/protocols/TelnetProtocol.cpp"
