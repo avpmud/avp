@@ -1,0 +1,39 @@
+/* src/conf.h.  Generated automatically by configure.  */
+/* src/conf.h.in.  Generated automatically from configure.in by autoheader.  */
+
+/* Define if you have <sys/wait.h> that is POSIX.1 compatible.  */
+#define HAVE_SYS_WAIT_H 1
+
+/* Define to `int' if <sys/types.h> doesn't define.  */
+/* #undef pid_t */
+
+/* Define as the return type of signal handlers (int or void).  */
+#define RETSIGTYPE void
+
+/* Define to `unsigned' if <sys/types.h> doesn't define.  */
+/* #undef size_t */
+
+/* Define if we're compiling CircleMUD under any type of UNIX system */
+#define CIRCLE_UNIX 1
+
+/* Define to `int' if <sys/types.h> doesn't define.  */
+/* #undef ssize_t */
+
+/* Define to `int' if <socketbits.h> doesn't define.  */
+/*#define socklen_t int*/
+
+/* Define to `int' if <socket.h> doesn't define.  */
+#define socket_t int
+
+/* Define if you have the <arpa/telnet.h> header file.  */
+#define HAVE_ARPA_TELNET_H 1
+
+/* Define if you have the <signal.h> header file.  */
+#define HAVE_SIGNAL_H 1
+
+/* Define if you have the <sys/time.h> header file.  */
+#define TIME_WITH_SYS_TIME 1
+#define HAVE_SYS_TIME_H 1
+
+/* Define if you have the <unistd.h> header file.  */
+#define HAVE_UNISTD_H 1
