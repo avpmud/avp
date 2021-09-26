@@ -1,0 +1,1558 @@
+[Room 12:0]
+	Virtual:	:0
+	Name:		The Company Meeting Room
+	Description:$
+   `wThis is the meeting room of the most powerful beings in the universe - the
+board members of the Company.  A circular table sits in the middle of the room,
+lit by a huge overhead light system.  There are many comfortable swivel chairs
+around the table.  The Company Board Room is to the north.  For some reason you
+sense that you should not break the intense silence.  `n `yTo find the offices
+of staff members or other landmarks of the Tower, type `n'`Rlook map`n'.    
+~
+	RoomFlags:	NO-MOB INDOORS PEACEFUL VEHICLES CAN-LAND SHIPYARD
+	Sector:		Inside
+	[Exit north]
+		Destination:	:4
+		Description:$
+The Immortal Board Room can be seen to the north.
+~
+	[Exit east]
+		Destination:	:17
+		Key:		0:0
+	[Exit south]
+		Destination:	:1
+		Key:		0:0
+	[Exit west]
+		Destination:	:99
+		Key:		0:0
+	[Exit up]
+		Destination:	:40
+		Description:$
+This room goes up into the Admin's Tower.
+~
+		Key:		0:0
+	[Exit down]
+		Destination:	:11
+		Key:		0:0
+[Room 12:1]
+	Virtual:	:1
+	Name:		Senior Staff Hallway
+	Description:$
+   This wing was constructed in dedicated for the Senior Staff of Aliens vs.  
+Predator MUD.  This hallway has pristine carpeting and warm red walls.  A
+thin wooden strip separates a two-foot tall run of wood paneling placed below
+each painted section.  Small brass light fixtures are mounted every few feet
+along both sides of the hallway.    
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit north]
+		Destination:	:0
+		Key:		0:0
+	[Exit east]
+		Destination:	:42
+		Key:		0:0
+	[Exit south]
+		Destination:	:8
+		Key:		0:0
+	[Exit west]
+		Destination:	:76
+		Key:		0:0
+[Room 12:2]
+	Virtual:	:2
+	Name:		The Ice Box Of The Gods
+	Description:$
+   The Ice Box is for little boys and girls that cannot play nice. Be good
+and maybe someone will come and get you.
+~
+	RoomFlags:	INDOORS PEACEFUL SOUNDPROOF NO-TRACK NO-PK NO-RECALL
+	Sector:		Inside
+[Room 12:3]
+	Virtual:	:3
+	Name:		The Weland-Yutani, Ellen Ripley Memorial Auditorium
+	Description:$
+   `yThis very large, state of the art facility was donated the to the Aliens
+vs Predator Staff so that they might host conferences and seminars about AVP
+subjects.  The sloping floors all lead to the main stage at the front of the
+room.  A wooden podium sits upon a large hemispherical shaped stage.  And
+over-head, many lights hang from an erected scaffolding.  `n
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit east]
+		Destination:	:25
+		Keywords:	gate
+		Flags:		DOOR PICKPROOF NO-MOVE 
+		Key:		0:0
+	[Exit west]
+		Destination:	:4
+		Description:$
+The Immortal Board Room can be seen to the west.
+~
+[Room 12:4]
+	Virtual:	:4
+	Name:		The Company Board Room
+	Description:$
+   `wThe main hangout of the players, the Company Board Room is the place to be
+to exchange information about various aspects of this world.  To express your
+opinions to Mother...  simply post on the board present in this room.  `n
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit north]
+		Destination:	:98
+		Key:		0:0
+	[Exit south]
+		Destination:	:0
+		Description:$
+The Company Meeting Room is located to the south.
+~
+	[Exit west]
+		Destination:	:5
+		Description:$
+The Gods' Post Office is just to the west.
+~
+	[Exit up]
+		Destination:	:6
+		Description:$
+   There is a small stair in the corner leading up to the social room of the
+Gods.  A sign informs you that this is the location of the usenet terminal.  
+
+~
+[Room 12:5]
+	Virtual:	:5
+	Name:		The E-mail Database
+	Description:$
+   `wThis newly built post office appears to have been built slightly more user
+friendly.  Should you have problems with your Mail, you should alert the Aliens
+vs.  Predator staff as fast as possible, so they can assist you with your
+problem.   `y>>>`n To `Rsend e-mail`n to someone, you would type: `Remail (player name)`n.
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit east]
+		Destination:	:4
+		Description:$
+The Immortal Board Room is just to the east.
+~
+[Room 12:6]
+	Virtual:	:6
+	Name:		The Social Gathering Room
+	Description:$
+   This elegantly decorated room has one simple purpose: to serve as a
+socialization chamber for everyone to gather in one centralized area.  A
+company terminal is located in the center of the room, useful for posting
+ideas, questions, and/or answers that will be available to the AvP public for
+viewing and feedback.    
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit down]
+		Destination:	:4
+		Description:$
+The Immortal Board Room is just down through the floor.  Funny how you
+didn't notice that exit before isn't it?
+~
+[Room 12:7]
+	Virtual:	:7
+	Name:		A Hallway to Deed's Demiplanes
+	Description:$
+   This brilliantly white hallway is a path between the material plane and
+Deed's natural habitat.  The journey is quick and painless.    
+~
+	Sector:		Inside
+	[Exit south]
+		Destination:	298:80
+		Key:		0:0
+	[Exit west]
+		Destination:	:82
+		Flags:		NO-MOB 
+		Key:		0:0
+[Room 12:8]
+	Virtual:	:8
+	Name:		Senior Staff hallway
+	Description:$
+   This hallway has pristine carpeting and warm burgundy walls.  A thin wooden
+strip separates a two-foot tall run of wood paneling placed below each painted
+section.  Small brass light fixtures are mounted every few feet along both
+sides of the hallway.    
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit north]
+		Destination:	:1
+		Key:		0:0
+	[Exit east]
+		Destination:	:78
+		Flags:		DOOR PICKPROOF 
+		Key:		0:0
+	[Exit south]
+		Destination:	:30
+		Key:		0:0
+	[Exit west]
+		Destination:	:39
+		Flags:		DOOR 
+		Key:		0:0
+[Room 12:9]
+	Virtual:	:9
+	Name:		Software Division
+	Description:$
+   This is a moderately lit room, filled with holograms depicting various
+creations which came from the Software Division.  This is where most
+Terraformers come when they are in need of new or enhanced software.    
+To the west is the Company Meeting Room, and to the north is a dimly lit
+room.
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit east]
+		Destination:	:10
+		Description:$
+Nothing.
+~
+		Flags:		DOOR PICKPROOF NO-SHOOT 
+		Key:		0:0
+	[Exit west]
+		Destination:	:40
+		Description:$
+The Company Meeting Room.
+~
+		Key:		0:0
+[Room 12:10]
+	Virtual:	:10
+	Name:		Fearitself's Office
+	Description:$
+   You walk into a small, partly lit room.  Most of the light is concentrated
+on the computer systems in the southeast corner.  Sitting on an oak desk is a
+huge Sony monitor, and next to that, a custom Athlon XP PC, the heart of Aliens
+vs Predator MUD development.  CD-ROMs, video games, Aliens vs Predator comics,
+and programming books line the shelves.  The original 5 beanie baby cats, and a
+Predator mask toy sit on top of the hutch.  Other cat-related items and
+trinkets are placed in decorative locations.    
+~
+	RoomFlags:	NO-MOB INDOORS NO-TRACK ADMIN-ONLY
+	Sector:		Inside
+	[Exit west]
+		Destination:	:9
+		Flags:		DOOR NO-SHOOT 
+		Key:		0:0
+[Room 12:11]
+	Virtual:	:11
+	Name:		Entering the Staff wing of AvP
+	Description:$
+   This level contains staff offices as far as the eye can see.  Cold steel
+beams support the hallway and a single thin strip of dark blue carpet winds
+down its length.  The only light emits from inlaid industrial lighting along
+the ceiling.    
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit north]
+		Destination:	:75
+		Key:		0:0
+	[Exit east]
+		Destination:	:84
+		Flags:		DOOR PICKPROOF 
+		Key:		0:0
+	[Exit south]
+		Destination:	:88
+		Key:		0:0
+	[Exit west]
+		Destination:	:81
+		Key:		0:0
+	[Exit up]
+		Destination:	:0
+		Key:		0:0
+	[Exit down]
+		Destination:	:97
+		Key:		0:0
+[Room 12:12]
+	Virtual:	:12
+	Name:		Vacant Office
+	Description:$
+   Nothing.
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit north]
+		Destination:	:97
+		Flags:		DOOR 
+		Key:		0:0
+[Room 12:13]
+	Virtual:	:13
+	Name:		Mission Suggestion Room
+	Description:$
+   You stand in the mission suggestion room.  Please post suggestions for new
+missions on the board.  Please don't get post happy, or request something
+beyond our means.  If you have valid suggestions, post away!    
+~
+	RoomFlags:	PEACEFUL
+	Sector:		Inside
+[Room 12:14]
+	Virtual:	:14
+	Name:		Pan's Labyrinth
+	Description:$
+   Nothing.
+~
+	RoomFlags:	INDOORS PEACEFUL NO-PK
+	Sector:		Inside
+	[Exit west]
+		Destination:	:97
+		Flags:		DOOR 
+		Key:		0:0
+[Room 12:15]
+	Virtual:	:15
+	Name:		This Room is open for occupation
+	Description:$
+   Nothing.
+~
+	RoomFlags:	INDOORS PEACEFUL NO-PK
+	Sector:		Inside
+	[Exit east]
+		Destination:	:97
+		Flags:		DOOR PICKPROOF 
+		Key:		0:0
+[Room 12:16]
+	Virtual:	:16
+	Name:		Enigma's Midget Chamber
+	Description:$
+   Nothing.
+~
+	RoomFlags:	INDOORS PARSER PRIVATE STAFF-ONLY VEHICLES ADMIN-ONLY
+	Sector:		Inside
+	[Exit east]
+		Destination:	:41
+		Flags:		DOOR PICKPROOF 
+		Key:		0:0
+	[Exit down]
+		Destination:	125:61
+		Key:		0:0
+[Room 12:17]
+	Virtual:	:17
+	Name:		Exit leading to the Hall of Fame
+	Description:$
+   This hallway will take you away from the main offices of the AvP staff, and
+into the Hall of Fame.    
+~
+	RoomFlags:	PEACEFUL
+	Sector:		Inside
+	[Exit north]
+		Destination:	16:0
+		Key:		0:0
+	[Exit east]
+		Destination:	:18
+		Key:		0:0
+	[Exit west]
+		Destination:	:0
+		Key:		0:0
+[Room 12:18]
+	Virtual:	:18
+	Name:		The AvP Staff Library
+	Description:$
+   This is the staff library here at Aliens Vs.  Predator.  The walls are lined
+with bookshelves that seem to reach up forever to the skylight at the top.  
+Hundreds, maybe even thousands of books rest within the shelves, while the
+gentle gurgle of the fountain gives the room a peaceful sound.    
+~
+	RoomFlags:	PEACEFUL
+	Sector:		Inside
+	[Exit west]
+		Destination:	:17
+		Key:		0:0
+[Room 12:19]
+	Virtual:	:19
+	Name:		`RS`Buperman's `CF`cortress of `CS`colitude`n
+	Description:$
+   `cIn the barren wasteland of the `wNorth Pole`c, an enormous hidden `Cice cave`c lies
+where no ordinary human will ever travel.  Built by the `RM`Ban`c himself, he uses `c `n`c
+this cave as an escape from the constant burden of answering cries for help
+around the world.  The cave's floor is covered with `wpowdery snow`c, and the
+`w`cwalls and ceiling are encompassed by majestic `Ccrystals of ice`c, playfully`c 
+reflecting light throughout the cavern.`n
+~
+	RoomFlags:	ADMIN-ONLY NO-RECALL NO-HIVE
+	Sector:		Inside
+	[Exit west]
+		Destination:	:30
+		Flags:		DOOR 
+		Key:		0:0
+[Room 12:20]
+	Virtual:	:20
+	Name:		`mK`cy`ml`ca`mt`ci`ma`c'`ms `cP`mo`crn`mo `cS`mh`ca`mc`ck`n
+	Description:$
+   This room is GIANT.  The amount of fruits astounds you.  At you feet you see
+a `Ylemon`n.  The ceiling has `Ggreen light`n so that the fruit will stay in perfect
+condition until there eaten.  Seeing the `Gf`Rr`Bu`Gi`Yt`n makes you want to eat it,
+eventhough you know it's wrong....  Or is it?  On the west wall stands a
+large `Rapple`n with a sign reading Grown in Dec, 14 04 by Kylatia, strange date,
+isn't it?                                    (Room Designed by Dellman)
+~
+	Sector:		Inside
+[Room 12:21]
+	Virtual:	:21
+	Name:		Inside Frenzy's Cozy Igloo
+	Description:$
+   Inside the giant ice dome, it is surprisingly mild, thanks to the roaring
+fire in the centre of the "floor".  Various comfy looking animal furs line the
+rest of the frozen surface, creating a pleasant and habitable living space.  
+~
+	RoomFlags:	NO-MOB INDOORS PEACEFUL PRIVATE STAFF-ONLY ADMIN-ONLY
+	Sector:		Inside
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	checklist
+			Description:$
+`n`cChecklist:`n
+`n`C----------`n
+
+1. [ ] Finish CTF.
+2. [ ] Keep clans in motion, hopefully make sure clan shit gets implemented before Enigma's return.
+3. [ ] Move mission tokens into general circulation.
+4. [ ] Script up (with Lividity's help, if necessary) an exchange/buy medium for mission tokens.
+5. [ ] Push automissions onward, finish the LV-219 one and keep watch on the other two.
+6. [ ] Try not to slack off.
+~
+[Room 12:22]
+	Virtual:	:22
+	Name:		This room is open for Occupation.
+	Description:$
+   Nothing.
+~
+	RoomFlags:	PEACEFUL
+	Sector:		Inside
+	[Exit west]
+		Destination:	:1
+		Key:		0:0
+[Room 12:23]
+	Virtual:	:23
+	Name:		This Room is open for occupation
+	Description:$
+   Nothing.
+~
+	RoomFlags:	NO-MOB INDOORS PEACEFUL NO-TRACK
+	Sector:		Inside
+	[Exit north]
+		Destination:	:11
+		Key:		0:0
+[Room 12:24]
+	Virtual:	:24
+	Name:		Geno's Dojo
+	Description:$
+   Enormous hand-stitched tapestries cover almost every square foot of the
+walls, each one depicting different scenes from an ancient battle fought by two
+warring oriental armies.  The ceiling is composed of crystal clear skylights so
+the rays of the sun and moon can shine down and light the soft, carpet
+flooring.    
+~
+	RoomFlags:	PEACEFUL NO-TRACK VEHICLES NO-RECALL NO-HIVE
+	Sector:		Inside
+	[Exit south]
+		Destination:	:40
+		Flags:		DOOR PICKPROOF 
+		Key:		0:0
+[Room 12:25]
+	Virtual:	:25
+	Name:		Walking Down a Hallway
+	Description:$
+   The large logos and bright lights continue down the walls and ceiling as the
+tunnel continues to stretch on.  The screens displaying the advertisement flash
+rapidly, the images filled with subliminal messages to persuade anyone to buy
+more of their products.    
+~
+	RoomFlags:	PEACEFUL
+	Sector:		Inside
+	[Exit north]
+		Destination:	:26
+		Key:		0:0
+	[Exit east]
+		Destination:	:28
+		Key:		0:0
+	[Exit south]
+		Destination:	:27
+		Key:		0:0
+	[Exit west]
+		Destination:	:3
+		Key:		0:0
+[Room 12:26]
+	Virtual:	:26
+	Name:		Weyland-Yutani Corporate Research and Development Laboratory
+	Description:$
+   In order to help protect its colonial assets along the outer-rim,
+Weyland-Yutani buys out many USCMC defense contracts, generating a massive cash
+flow into the USCMC's bank accounts.  To this end, Weyland-Yutani often
+receives unnofficial USCMC tactical ground-and-air support to defend their
+terraforming colonies against hostile takeovers and xenomorph invasions.  For
+their efforts, the USCMC platoons sent to aid Weyland-Yutani's colonies are
+often outfitted with The Company's newest and most state-of-the-art armor and
+weaponry.    
+~
+	RoomFlags:	PEACEFUL
+	Sector:		Inside
+	[Exit south]
+		Destination:	:25
+		Key:		0:0
+[Room 12:27]
+	Virtual:	:27
+	Name:		Weyland-Yutani Xenomorph Bio-Development Laboratory
+	Description:$
+   Pieces of disected aliens line the walls of this small lab.  A small counter
+stretches across the center of the room containing pieces of genetically
+enhanced organs and body parts for xenomorph which can easily be grafted on to
+them.    
+~
+	RoomFlags:	PEACEFUL
+	Sector:		Inside
+	[Exit north]
+		Destination:	:25
+		Key:		0:0
+[Room 12:28]
+	Virtual:	:28
+	Name:		Walking Down A Hallway
+	Description:$
+   The large logos and bright lights continue down the walls and ceiling as the
+tunnel continues to stretch on.  The screens displaying the advertisement flash
+rapidly, the images filled with subliminal messages to persuade anyone to buy
+more of their products.    
+~
+	RoomFlags:	PEACEFUL
+	Sector:		Inside
+	[Exit north]
+		Destination:	:29
+		Key:		0:0
+	[Exit west]
+		Destination:	:25
+		Key:		0:0
+[Room 12:29]
+	Virtual:	:29
+	Name:		Weyland-Yutani Yautja Bio-Development/Equipment Analysis Laboratory
+	Description:$
+   The defiled remains of once-proud Yautja warriors are prodded and dissected
+in the name of scientific advancement.  The corpses of the slain are drained of
+all blood, which is analyzed to determine the molecular composition of Yautja
+blood so that a synthetic fluid may one day be created to counter xenomorph
+acid splash.  Since little else of interest can be gleaned from the slaughtered
+yautja corpses, Weyland-Yutani scientists instead spend most of their time
+analyzing their impressive cache of stolen Yautja technology.    
+~
+	RoomFlags:	PEACEFUL
+	Sector:		Inside
+	[Exit south]
+		Destination:	:28
+		Key:		0:0
+[Room 12:30]
+	Virtual:	:30
+	Name:		Senior Staff Hallway
+	Description:$
+   This wing was constructed in dedicated for the Senior Staff of Aliens vs.  
+Predator MUD.  This hallway has pristine carpeting and warm red walls.  A thin
+wooden strip separates a two-foot tall run of wood paneling placed below each
+painted section.  Small brass light fixtures are mounted every few feet along
+both sides of the hallway.    
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit north]
+		Destination:	:8
+		Key:		0:0
+	[Exit east]
+		Destination:	:19
+		Key:		0:0
+	[Exit south]
+		Destination:	:82
+		Key:		0:0
+	[Exit west]
+		Destination:	:50
+		Flags:		DOOR PICKPROOF 
+		Key:		0:0
+[Room 12:39]
+	Virtual:	:39
+	Name:		Raid's Office
+	Description:$
+   This hallway is a bustling hive of activity.  Thousands of people occupy
+this place.  Many are attempting to pass the intricate hallway.  To the south
+is the main lounge, where some are doing business, and some are just relaxing.
+Marines have been assigned to patrol to ensure that there are no hijackings or
+disputes among the common.  Further down the hallway leads to the internal
+engine room, heavily guarded by marines.  Several exposed cables and piping run
+along the walls, and several consoles are around displaying ship system
+information.    
+~
+	RoomFlags:	INDOORS PEACEFUL STAFF-ONLY ADMIN-ONLY SHIPYARD SURFACE
+	Sector:		Inside
+	[Exit east]
+		Destination:	:8
+		Flags:		DOOR 
+		Key:		0:0
+[Room 12:40]
+	Virtual:	:40
+	Name:		The Administrative Tower
+	Description:$
+   This is a long stairway that goes up into the administrative tower.  This
+room resonates with raw power that seems to engulf everything in it.  There are
+rooms that are very large, and some that are small and wide.  However, the
+power that rings throughout this tower is stunning and the sound of chimes
+rings within the unprotected ear canal.    
+~
+	RoomFlags:	INDOORS PEACEFUL VEHICLES
+	Sector:		Inside
+	[Exit north]
+		Destination:	:24
+		Flags:		DOOR PICKPROOF NO-MOVE 
+		Key:		0:0
+	[Exit east]
+		Destination:	:9
+		Key:		0:0
+	[Exit south]
+		Destination:	:73
+		Flags:		NO-HUMAN NO-SYNTHETIC NO-PREDATOR NO-ALIEN 
+		Key:		0:0
+	[Exit west]
+		Destination:	:79
+		Flags:		DOOR PICKPROOF 
+		Key:		0:0
+	[Exit up]
+		Destination:	:41
+		Key:		0:0
+	[Exit down]
+		Destination:	:0
+		Description:$
+This exit goes back down into The Company Meeting Room.
+~
+		Key:		0:0
+[Room 12:41]
+	Virtual:	:41
+	Name:		The Administrative Tower
+	Description:$
+   This is the second level of the Administrative Tower, which gives a
+breathtaking view of the AvP universe.  There are numerous windows here, and
+the tower is illuminated with the light of distant suns.  The ground beneath
+seems to be transparent, and the carpet downstairs can almost be seen.  The
+patterns on the walls are stunning, and their secrets are known only to
+immortals.    
+~
+	RoomFlags:	INDOORS PEACEFUL VEHICLES
+	Sector:		Inside
+	[Exit north]
+		Destination:	:74
+		Key:		0:0
+	[Exit east]
+		Destination:	:66
+		Key:		0:0
+	[Exit south]
+		Destination:	:46
+		Flags:		DOOR PICKPROOF 
+		Key:		0:0
+	[Exit west]
+		Destination:	:69
+		Key:		0:0
+	[Exit down]
+		Destination:	:40
+		Key:		0:0
+[Room 12:42]
+	Virtual:	:42
+	Name:		`n`cTerin's`n `n`yGnome`n `n`mFortress`n of `n`rCh`n`rao`n`rs.`n
+	Description:$
+   A `gjade`n `GDragon`n desk dominates the center of this room.  Various
+papers lie everywhere on its surface.  Various bookcases line the walls stuffed
+full of many manuscripts.  A picture of `yEinstien`n and `YShrodinger`n hangs
+above a banner that reads :
+`w"If you cannot -in the long run- tell everyone what you have been doing, your doing has been worthless."
+`n
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Field
+	[Exit west]
+		Destination:	:1
+		Key:		0:0
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	window
+			Description:$
+The peacefull quad of OSU campus lies outside this window.  You can almost see
+a flag hangin below it.  Although the flag looks to be for the University of
+Georgia, not Ohio State.  Odd.    
+~
+[Room 12:43]
+	Virtual:	:43
+	Name:		A freshly dug room.
+	Description:$
+You are in a freshly dug room.
+~
+	Sector:		Inside
+	[Exit north]
+		Destination:	124:29
+		Key:		0:0
+[Room 12:46]
+	Virtual:	:46
+	Name:		`cGuarana's office`n
+	Description:$
+   This room is very dim; candle reflections on smooth marble walls provide
+only a flicker.  The air is cold and crisp with a dark heavy fog climbing and
+twisting its way over the room's intricate surfaces.  Twinkles of light dance
+from a large fireplace set into the far wall.  Works by Brassai adorn both
+sidewalls, each illuminated by a small upward facing spotlight.  A circular
+rune-encrusted door leads out into the administrative tower.    
+~
+	RoomFlags:	NO-MOB INDOORS STAFF-ONLY VEHICLES ADMIN-ONLY
+	Sector:		Inside
+	[Exit north]
+		Destination:	:41
+		Flags:		DOOR PICKPROOF 
+		Key:		0:0
+[Room 12:47]
+	Virtual:	:47
+	Name:		Matthias' Special Place
+	Description:$
+ `K       
+         .d888888888b.
+        d8888888888888b
+       d888888888888888b
+      d88888888888888888b
+     d8888888888888888888b
+    d888     88888     888b
+    d88   `RO`K   888   `RO`K   88b
+    d888     88888     888b 
+     d88888888   88888888b
+       d88888     88888b
+         d8888888888b
+        88b`W()()()()`Kd88
+         88b`W()()()`Kd88
+          8888888888
+           88888888
+            ''''''
+
+`WW`Kelcome to my mind. Enjoy your stay.`n
+~
+	RoomFlags:	INDOORS PEACEFUL STAFF-ONLY ADMIN-ONLY NO-RECALL
+	Sector:		Inside
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	lightsaber
+			Description:$
+
+((((((()))))))
+ \\\\\\//////
+  [||||||||]
+  ||||||||||
+  ||||(@)|||
+   \\\\////
+    (____)         The Almighty Lightsaber
+    |\___)         
+   [| |__)           
+    | |__)          
+    | |__)          
+    |/___)          
+    (____)           
+    (____)
+    (____)
+    (____)
+    (____)
+    (____)           
+   ////\\\\
+  ||||BMF|||
+ [|[]|[]|[]|]
+  ||||||||||
+  \(((())))/
+~
+		[ExtraDesc 2]
+			Keywords:	sword1
+			Description:$
+        /|\
+       {   }
+        } {
+       (___)
+       (___)
+       (___)
+       (___)
+ ______(___)______
+(_________________) 
+      |      | 
+      |     /  
+      |    (   
+      |     \  
+      |(\  /)|
+      | \)(/ |
+      |      |        
+      |(\  /)|
+      | \)(/ |
+      |      |
+      |(\  /)|
+      | \)(/ |
+      |      |
+      |(\  /)|
+      | \)(/ |
+      |      |
+      |(\  /)|
+      | \)(/ |
+      !\    /!
+      !!.  .!!
+       @!!!!@
+        \!!/
+         \/ 
+        
+                      
+~
+		[ExtraDesc 3]
+			Keywords:	Handgun1
+			Description:$
+
+  ._________________
+ /_////_____________=
+[______________.---/
+ [   |_/ .__.     _
+ |   ]   |  |    / \
+ |   ]   |  |   [   ]
+ |==/    |  |   |   | (Enlargened for Detail)
+         |==/   [___]
+~
+		[ExtraDesc 4]
+			Keywords:	Bloodletter
+			Description:$
+
+  `rd`K8888888     8888888`rb`K
+ `rd`K8888888  `r{`w!`r}`K  8888888`rb`K
+`rd`K8888888888`w|8|`K8888888888`rb`K
+`rd`K8888888888`w|8|`K8888888888`rb`K
+`rd`K8888888888`w|8|`K8888888888`rb`K
+ `rd`K8888888  `w|8|`K  8888888`rb`K 
+  `rd`K8888888 `w|8|`K 8888888`rb`K  
+           `w|8|
+           `w|8| `rB`Klood`rl`Ketter: `wS`Kcourge `wo`Kf `wT`Khe `wH`Keavens.`n 
+           `w(8)
+           `w(8)
+           `w(8)
+           `w(8)
+           `w(8)
+           `w(8)
+           `w|/|
+           `w|/|
+           `w|/|
+           `w\_/         
+`n
+~
+		[ExtraDesc 5]
+			Keywords:	Battle Rifle
+			Description:$
+
+                  
+                   ______
+  ________        (______) <--- Scope
+ /  \_____\______/______\__________
+|          |______________________]
+|       ___./!\_______________)   
+|   ./_/| | \_/   |    |   \__|=- <---Laser Targeter
+ \./    (_|        \___| <---- Ammo Clip             
+                        
+~
+		[ExtraDesc 6]
+			Keywords:	kingsheart sword2 king kings heart
+			Description:$
+     
+
+   `R88888
+  `R8  8  8   `CK`Ringsheart`n - `CB`Rlade`n of `CR`Rulers`n
+   `R88 88
+    `R888
+    `w)8(
+    `w(_)
+    `w(_)
+    `w(_)
+    `w(_)
+    `w)8(          `n "As the kingdom was created the blade was forged.
+ `K888`K888`K888         As the kingdom grew, the legacy of the blade was 
+`K888 `K888 `K888        born. As the kingdom reached its peak, the legend 
+`K88  `w!8!  `K88        of the blade came to be. As the kingdom crumbled,
+`R\`K8  `w!8!  `K8`R/`n        the blades time passed into myth."`n
+    `w!8!
+    `w!8!
+    `w!8!
+    `w!8!
+    `w!8!
+    `w!8!
+    `w!8!
+    `w!8!
+    `w!8!
+    `w!8!
+    `w!8!
+    `w!8!
+    `w!8!
+    `w!8!
+    `K\`w8`K/`n
+  
+~
+		[ExtraDesc 7]
+			Keywords:	vasyth
+			Description:$
+
+ `wV`ras`Ky`rth`K: `wT`rorm`Ke`rntor`K `wO`rf `wS`ro`Ku`rls`n
+`K   /\     /\    /\
+`r  (  \___(  )__/  )
+`r   /  (  ____  )  \
+`r  (    \`W(_`KO`W__)`r/    )
+`r   \              /
+`r   _)   (`KO  O`K`r)   (_
+  ( |`y(_)(_)(_)(_)`r| )
+   \|`y(_)(_)(_)(_)`r|/
+    (            )    __()__
+     \____\/____/    /()  ()\
+         `K||||`r       ( )(  )( )
+         `K''''        \| \/ |/
+                   
+~
+		[ExtraDesc 8]
+			Keywords:	nunchuk nunchaku nuchucks nunchukkz
+			Description:$
+
+ ____
+(    )
+ )  (
+(    )    
+ )  (
+(    )
+ )  (
+(    )
+ )  (
+(____)
+ (  )
+  \8\
+  /8/
+  \8\
+  /8/       NUNCHUKKZ
+  \8\
+   \8\
+    \8\
+     /8/
+     |8|
+     \8\
+      \8\
+      (__)
+     (    )
+      )  (
+     (    )
+      )  (
+     (    )
+      )  (
+     (    )
+      )  (
+     (____)
+~
+		[ExtraDesc 9]
+			Keywords:	lightsabers1
+			Description:$
+
+               ____       ______       ____
+|\            [____]     (      )     [____]
+|  \__        (____)      \    /      |____|
+|     )       | \  |       )  (       (____)
+|    /        |   \|      (____)       |__|
+ ))((         |   /|     [|[()]|]     (____)
+ |\\\|      ([|  ( |      (____)      (____)
+(|   |        | /__)      (----)_     (____)
+ |   |_       (____)      (____) |    (____)
+ |  /| |      (____)_     (----) |    (____)
+ |/__) |      (____) |    (____)_|    |____|
+ (___)_|      (____) |    (----)      )____(
+ (___)        (____)_|    |\__/|      |    |
+ (___)        (____)      |    |      (\  \)  
+ (___)        |))))|      (____)      |    |    
+(_____)       (____)      /____\       \  /
+| | | |       ||||||     |______|       )(
+| | | |       \____/      (____)       /  \
+|_|_|_|        (__)                   (_()_)
+Vader          Yoda        Luke      Unknown
+~
+		[ExtraDesc 10]
+			Keywords:	skullpauked
+			Description:$
+        
+            |     |
+           / \   / \
+          (   ) (   )
+           \ /   \ /
+            |     |
+         .d888888888b.
+        d8888888888888b
+       d888888888888888b
+      d88888888888888888b
+     d8888888888888888888b
+    d888    |88888|    888b
+    d88   O | 888 | O   88b
+    d888    |88888|    888b SkullPauked
+     d88888888   88888888b
+       d88888     88888b
+         d8888888888b
+        88b()()()()d88
+         88b()()()d88
+          8888888888
+           88888888
+            |     |
+           (  ) (  )
+            \  !  /
+              \./
+               
+~
+		[ExtraDesc 11]
+			Keywords:	deathz
+			Description:$
+    .::.
+    '::'
+     ::
+     ::
+     ::
+,'__.::.__'.
+',''|::|'','
+    |::|  
+    |!!|
+    |!!|  
+    |!!|
+  ,.|!!|     
+.'  |::|`r'`n        
+    |::|`r ';`n           
+    |!!|`r   '.`n  
+    )!!(`R     @`r!`R@@@  @@@@@   @@@  @@@@@@ @@   @@`n
+    |!!|`R     @@  @ @@@    @@   @@  @@   @@   @@`n
+    |::|`R     @@  @ @@@@@@ @@@@@@@  @@   @@@@@@@`n
+    |!!|`r     !`R@  @ @@`r!    @@   @@  `r!`R@   @@   @@`n
+    |!!|`r     !!!!! !!!!!! `R@`r!   `r!`R@  `r!`R@   `R@`r!   !`R@`n
+    |!!|`r      !      !!   !!    !  !!   !    !!`n
+    |!!|`r             !    !        !          !`n
+    |!!|                                      `r.`n
+    |@@|
+    |@@|
+    :||:
+    |::|
+    :`R!!`n:
+    `R!`n`r\/`n`R!`n
+`r    .!!.`n
+`r   ! !`n
+`r     !`n
+           
+
+~
+		[ExtraDesc 12]
+			Keywords:	buttspike
+			Description:$
+    /\
+   //\\
+  //\/\\
+ //\\//\\
+ \/\/\/\/
+ /\/\/\/\
+ \/\/\/\/
+ \/\/\/\/
+ \/\/\/\/
+ \\\\////
+ ////\\\\
+ \\//\\//
+ //\\//\\
+ \\//\\//
+ ///\/\\\
+ \\\/\///
+ //\\//\\
+ \\//\\//
+ //\\//\\
+ \\\\////
+ ////\\\\
+ /\/\/\/\
+ /\/\/\/\
+ /\/\/\/\
+ \/\/\/\/
+ /\/\/\/\
+ \\//\\//
+  \\/\//
+    \/
+~
+[Room 12:49]
+	Virtual:	:49
+	Name:		`^r`KDi`w`^rme`W`^rn`w`^rsi`^r`Kon`^r`W's WYC Branch Office`n
+	Description:$
+`G           _______________
+  __     _/__ o  o _______\_____  _                           _
+ | ()   (    \____/=||----------||o||------------------------| |---
+ | ||   |0 0 ____   ||__________||o||,______________,--------| |---
+ | ||---| ____||_||_|| | | |--------(o____o____o____o)-------| |
+ |-------\__________||_|_|_|__________(;o  o  o  o;)---------|_|
+                                       '----------'`n
+~
+	RoomFlags:	PEACEFUL
+	Sector:		Inside
+	[Exit east]
+		Destination:	:82
+		Flags:		DOOR 
+[Room 12:50]
+	Virtual:	:50
+	Name:		Flichen's Office
+	Description:$
+
+`^b* * * * * * * * * * `^r                         
+`^b * * * * * * * * *  `^w                         
+`^b* * * * * * * * * * `^r                         
+`^b * * * * * * * * *  `^w                         
+`^b* * * * * * * * * * `^r                         
+`^b * * * * * * * * *  `^w                         
+`^b* * * * * * * * * * `^r                         
+`^w                                             
+`^r                                             
+`^w                                             
+`^r                                             
+`^w                                             
+`^r                                             `n
+
+~
+	RoomFlags:	INDOORS NO-RECALL
+	Sector:		Inside
+	[Exit east]
+		Destination:	:30
+		Flags:		DOOR PICKPROOF NO-MOB 
+		Key:		0:0
+[Room 12:65]
+	Virtual:	:65
+	Name:		The AvP Tribunal
+	Description:$
+   The piercing shine of the AvP courthouse's waxed floor is so brilliant that
+it blinds and incapacitates all whom gaze upon it.  This is where the
+administrators of AvP, in their infinite and immortal wisdom, mete out justice
+and punishment to the unsuspecting AvP populace.    
+~
+	RoomFlags:	INDOORS
+	Sector:		Inside
+[Room 12:66]
+	Virtual:	:66
+	Name:		Incursion's Abyss
+	Description:$
+   Streaks of black stained with grime-grey encompasses the sum of ones vision.
+Somewhere in this dark, sinister void can be seen a platform, slowly rotating
+in a circle as it follows its broad trajectory around a dying sun of a sick and
+besieged universe.  Aboard the platform itself, past the long inoperative
+security system and automated defense grid, slipping past the long-shut hanger
+bay and blast doors, can be seen a deep emptiness, which lacks any trace of
+radiance or illumination.  Deeper into the platform reveals the source of the
+void - the inner sanctum of the creature which calls this desolate and forlorn
+place home.  Feeble torches fail to illuminate the gloomy interior - a
+pulsating red glow emanating from the shadowy throne, which dominates the far
+end of the chamber, is the only real source of illumination within this lair of
+an abomination.    
+~
+	RoomFlags:	INDOORS PEACEFUL STAFF-ONLY
+	Sector:		Inside
+	[Exit west]
+		Destination:	:41
+		Key:		0:0
+[Room 12:67]
+	Virtual:	:67
+	Name:		This room is open for Occupation.
+	Description:$
+   Nothing.
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit west]
+		Destination:	:8
+		Flags:		DOOR PICKPROOF 
+		Key:		0:0
+[Room 12:68]
+	Virtual:	:68
+	Name:		Dimpus Burger
+	Description:$
+   Minute-made microwave burgers slide down greasy chutes into sloshy holding
+bins crusted with mustard and mayonnaise.  Underpaid high school students being
+worked like illegal immigrants drop frozen frenchfries into molten cooking oil
+in a spackling crackle of face-pocking death.  Fast food has NEVER been this
+good.  And remember, you can Dimpus Size it for only a quarter more!    
+~
+	Sector:		Inside
+	[Exit east]
+		Destination:	:69
+		Flags:		NO-MOB 
+		Key:		0:0
+[Room 12:69]
+	Virtual:	:69
+	Name:		Lividity's Orifice
+	Description:$
+   A flickering projector screen displays an endless loop of Amon: Apocalypse
+of Devil Man.  A flickering projector screen displays an endless loop of Amon:
+Apocalypse of Devil Man.  A flickering projector screen displays an endless
+loop of Amon: Apocalypse of Devil Man.  A flickering projector screen displays
+an endless loop of Amon: Apocalypse of Devil Man.  A flickering projector
+screen displays an endless loop of Amon: Apocalypse of Devil Man.  A flickering
+projector screen displays an endless loop of Amon: Apocalypse of Devil Man.  
+Programmed for violence.    
+~
+	RoomFlags:	INDOORS
+	Sector:		Inside
+	[Exit east]
+		Destination:	:41
+		Flags:		DOOR 
+		Key:		0:0
+	[Exit west]
+		Destination:	:68
+		Flags:		NO-SHOOT 
+		Key:		0:0
+[Room 12:72]
+	Virtual:	:72
+	Name:		The Intern Cellar
+	Description:$
+   Nothing.  No matter what department you are in, you're stuck in this hole for
+2 weeks.    
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit west]
+		Destination:	:77
+		Flags:		DOOR 
+		Key:		0:0
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	sword siegfried
+			Description:$
+           `Kx//^^^^^^^^^^^^^^^^^^\\x`n
+         `Kx//      `g*`K      \\x`n
+        `Kx//      `Y(_)`K      \\x`n
+      `Kx//        `B|`b=`B|        `K\\x`n
+    `Kx//          `B|`b=`B|          `K\\x`n
+    `K||       `Y/`y|`b==`w\`b=`w/`b==`y|`Y\       `K||`n
+    `K||       `Y\`y|`Y\/`w\"/`Y\/`y|`Y/       `K||
+    `K||          `w| Y |          `K||`n
+    `K||          `w| `W| `w|          `K||
+    `K||          `w| `W| `w|          `K||
+    `K||         `b_`w| `W| `w|          `K||
+    `K||       `b_/ `w| `W| `w|`b\         `K||
+    `K||      `b/ \ `w| `W| `w| `b\        `K||`n
+    `K||     `b/   _`w| `W| `w|  `b|       `K||`n
+    `K||     `b|/\/ `w| `W| `w|  `b|\      `K||`n
+    `K||    `b/  <  `r+`b\`W| `w|`b\ />\     `K||`n
+    `K||   `b/   >   `r+`b\ `w| `b\    |   `K||`n
+    `K||  `b|<        `r+`b\`w|`r+`b\ < \    `K||`n
+    `K||  `b(    `r(`R@`r)    +   `b|   )  `K||`n
+    `K|| `b(    `G( | )  `r(`R@`r)   `b\ / ) `K||`n
+    `K||  `b\___`G\\|//`b__ `G|  `b___)__/ `K||`n
+    `K||            `G\\|//        `K||`n
+    `K|||||||||||||||||||||||||||||`n
+~
+[Room 12:73]
+	Virtual:	:73
+	Name:		`yProphet's Ancient Study`n
+	Description:$
+   This ancient room is lined from wall to wall with bookshelves, paintings,
+and artifacts.  A small desk sits in the middle of the room, piled with the
+latest work of which Prophet must be reviewing.  One may look at this room and
+think of it as stringent and restrained, but to Prophet it is simply free of
+distractions.  Truly a room fit for an immortal who wishes only to serve, not
+to be served.    
+~
+	RoomFlags:	DARK INDOORS PEACEFUL NO-PK ADMIN-ONLY
+	Sector:		Inside
+	[Exit north]
+		Destination:	:40
+		Key:		0:0
+	[Exit up]
+		Destination:	125:61
+		Flags:		HIDDEN 
+		Key:		0:0
+	[Exit down]
+		Destination:	:46
+		Flags:		HIDDEN 
+		Key:		0:0
+[Room 12:74]
+	Virtual:	:74
+	Name:		Entity's Office
+	Description:$
+Abandoned... a long time ago...
+~
+	RoomFlags:	PEACEFUL
+	Sector:		Inside
+	[Exit south]
+		Destination:	:41
+		Key:		0:0
+[Room 12:75]
+	Virtual:	:75
+	Name:		The Plains of Idavollr
+	Description:$
+DUDE AWP SUCKS !!!!!!! AWP WHORE !!!!!!!!!!!
+BET YOU CAN'T USE ANYTHING ELSE !!!!!!!!!!! 
+YOU SUCK !!!!!!!!!!!!!!                     
+                            _               
+B46B13B6B7B82            _-' "'-,           
+                      _-' | d$$b | 
+                   _-'    | $$$$ | 
+                _-'       | Y$$P |
+             _-'|         |      |
+          _-'  _*         |      |          
+       _-' |_-"      __--''\    /           
+    _-'         __--'     __*--'            
+  -'       __-''    __--*__-"`              
+ |    _--''   __--*"__-'`                   
+ |_--"  .--=`"__-||"                        
+ |      |  |\\   || 
+ | .dUU |  | \\ //  
+ | UUUU | _|___//
+ | UUUU |  | 
+ | UUUU |  | 
+ | UUUU |  |
+ | UUUU |  |
+ | UUUU |  | 
+ | UUP' |  | 
+ |   ___^-"`
+  ""'    
+~
+	RoomFlags:	PEACEFUL
+	Sector:		Inside
+	[Exit south]
+		Destination:	:11
+		Flags:		DOOR PICKPROOF 
+		Key:		0:0
+[Room 12:76]
+	Virtual:	:76
+	Name:		Jypsy's `yD`Ri`Ms`cc`Go `wPalace of `rlove`n and ninjatude
+	Description:$
+   This room is empty, except for some dust bunnies in the corner, baring their
+teeth at you.    
+~
+	RoomFlags:	PEACEFUL
+	Sector:		Inside
+	[Exit east]
+		Destination:	:1
+		Key:		0:0
+[Room 12:77]
+	Virtual:	:77
+	Name:		Staff Wing of AvP
+	Description:$
+   This level contains staff offices as far as the eye can see.  Cold steel
+beams support the hallway and a single thin strip of dark blue carpet winds
+down its length.  The only light emits from inlaid industrial lighting along
+the ceiling.  There is a large crucifix attached to the southern wall.    
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit east]
+		Destination:	:72
+		Flags:		DOOR 
+		Key:		0:0
+	[Exit up]
+		Destination:	:97
+		Key:		0:0
+[Room 12:78]
+	Virtual:	:78
+	Name:		`YD`Ra`rl`Wv`we`Ky`Y'`Rs `rC`Rh`Ya`Rm`rb`We`wr`Ks`n
+	Description:$
+   Nothing.
+`n
+~
+	RoomFlags:	INDOORS PEACEFUL NO-PK
+	Sector:		Inside
+	[Exit west]
+		Destination:	:8
+		Key:		0:0
+[Room 12:79]
+	Virtual:	:79
+	Name:		Vrasp's Phrontistery
+	Description:$
+   Many guides and handbooks fill the bookshelf against the wall, behind
+Vrasp's desk.  The lights of this room are dimmed, just luminous enough for
+him to read and write.  On his desk lay many objects, which appear to be
+things he is currently working on.  Many items used during missions lay
+against the wall for easy reach and a large scroll is posted on the wall,
+used for posting any mission ideas one would like to pass along to him.    
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit east]
+		Destination:	:40
+		Flags:		DOOR 
+		Key:		0:0
+[Room 12:80]
+	Virtual:	:80
+	Name:		Roland's Room
+	Description:$
+   Filthy jews.    
+~
+	RoomFlags:	SOUNDPROOF NO-LITTER NO-RECALL
+	Sector:		Field
+[Room 12:81]
+	Virtual:	:81
+	Name:		Vacant Office
+	Description:$
+   Nothing.
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit east]
+		Destination:	:11
+		Key:		0:0
+[Room 12:82]
+	Virtual:	:82
+	Name:		Senior Staff Hallway
+	Description:$
+   This wing was constructed in dedicated for the Senior Staff of Aliens vs.  
+Predator MUD.  This hallway has pristine carpeting and warm red walls.  A thin
+wooden strip separates a two-foot tall run of wood paneling placed below each
+painted section.  Small brass light fixtures are mounted every few feet along
+both sides of the hallway.    
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit north]
+		Destination:	:30
+		Key:		0:0
+	[Exit east]
+		Destination:	:7
+		Key:		0:0
+	[Exit west]
+		Destination:	:49
+		Flags:		DOOR 
+[Room 12:83]
+	Virtual:	:83
+	Name:		Vacant Office
+	Description:$
+   Nothing.
+~
+	RoomFlags:	PEACEFUL
+	Sector:		Inside
+	[Exit south]
+		Destination:	:97
+		Key:		0:0
+[Room 12:84]
+	Virtual:	:84
+	Name:		Galt's Gulch
+	Description:$
+
+`Y        $ $
+     ,$$$$$$$,
+   ,$$$'$ $`$$$
+   $$$  $ $  `
+   '$$$,$ $
+     '$$$$$$,
+       '$ $$$$,
+        $ $ $$$,
+    ,   $ $  $$$
+    $$$,$ $.$$$'
+     '$$$$$$$'
+        $ $
+`n
+~
+	RoomFlags:	INDOORS PEACEFUL NO-LITTER
+	Sector:		Inside
+	[Exit west]
+		Destination:	:11
+		Flags:		DOOR 
+		Key:		0:0
+[Room 12:85]
+	Virtual:	:85
+	Name:		This Room is Open for Occupation.
+	Description:$
+   Nothing.
+~
+	Sector:		Inside
+	[Exit down]
+		Destination:	:1
+		Key:		0:0
+[Room 12:86]
+	Virtual:	:86
+	Name:		`r Rommel's `RB`rl`Ro`ro`Rd`ry Orifice!`n
+	Description:$
+   A foul, damp stench overcomes the room here, as the lights begin to flicker
+on a regular interval.  A loud humming can be heard constantly, from all the
+computers and other electronic devices working away, which also occasionally
+emit clicking noises.  All that can bee seen in this room is a mix of large
+ammounts of, computer, computer hardware, cable and towers of boxes.    
+~
+	RoomFlags:	PEACEFUL STAFF-ONLY
+	Sector:		Inside
+	[Exit west]
+		Destination:	:97
+		Flags:		DOOR 
+		Key:		0:0
+[Room 12:87]
+	Virtual:	:87
+	Name:		Staff Wing of AvP
+	Description:$
+This level contains staff offices as far as the eye can see.  Cold steel
+beams support the hallway and a single thin strip of dark blue carpet winds
+down its length.  The only light emits from inlaid industrial lighting along
+the ceiling.  There is a large crucifix attached to the southern wall.
+~
+	RoomFlags:	INDOORS PEACEFUL VEHICLES
+	Sector:		Inside
+[Room 12:88]
+	Virtual:	:88
+	Name:		Vacant Office
+	Description:$
+   Nothing.
+~
+	RoomFlags:	NO-MOB INDOORS PEACEFUL NO-TRACK
+	Sector:		Inside
+	[Exit north]
+		Destination:	:11
+		Key:		0:0
+[Room 12:97]
+	Virtual:	:97
+	Name:		Staff Wing of AvP
+	Description:$
+   This level contains staff offices as far as the eye can see.  Cold steel
+beams support the hallway and a single thin strip of dark blue carpet winds
+down its length.  The only light emits from inlaid industrial lighting along
+the ceiling.    
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit north]
+		Destination:	:83
+		Key:		0:0
+	[Exit east]
+		Destination:	:86
+		Key:		0:0
+	[Exit south]
+		Destination:	:12
+		Flags:		DOOR 
+		Key:		0:0
+	[Exit up]
+		Destination:	:11
+		Key:		0:0
+	[Exit down]
+		Destination:	:77
+		Key:		0:0
+[Room 12:98]
+	Virtual:	:98
+	Name:		The PoG Wedding Chapel
+	Description:$
+   The oyster-white walls of this chapel tower into the air with a holy
+existence.  Millions of stain glass windows line these walls with thousands of
+engraved pictures of the immortals doing superiorly heroic acts of might and
+power.  Lining the ceiling are rows of lights shaped as glowing crosses which
+provide a rather bright illumination to the chapel.  Upon the ground are two
+rows of wooden pews, covered in red roses spanning the length of the chapel
+from the entrance to the altar.  The altar is constructed from a very sturdy
+oak and has been polished to a fine surface.  Hanging above the altar is a
+pewter statue of an angel meant as a blessing for those married within this
+holy chapel.    
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+	[Exit south]
+		Destination:	:4
+		Flags:		DOOR 
+		Key:		0:0
+[Room 12:99]
+	Virtual:	:99
+	Name:		Tower Airlock - Corporate Offices of AvP
+	Description:$
+You stand in the airlock to the corporate tower of Aliens vs. Predator MUD.
+All over the walls are posted signs that read: `f`RNO SHOUTING`n, `f`RKEEP QUIET PLEASE`n.
+Out of the corner of your eye, you notice some graffiti on the wall. 
+~
+	RoomFlags:	PEACEFUL VEHICLES
+	Sector:		Inside
+	[Exit east]
+		Destination:	:0
+		Key:		0:0
+	[Exit up]
+		Destination:	150:0
+		Key:		0:0
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	graffiti
+			Description:$
+
+The graffiti seems to have been painted over. How sad. :(
+~
+BREAK

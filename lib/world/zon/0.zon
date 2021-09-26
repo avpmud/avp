@@ -1,0 +1,50 @@
+Number:		0
+Name:		Limbo - Internal
+Top:		99
+[Reset]
+	Mode:		NEVER
+	Time:		10
+[Resets/1]
+	Type:		Trigger
+	Trigger:	1227
+	TriggerType:	Room
+	Room:		2
+[Resets/2]
+	Type:		Mobile
+	Mobile:		1
+	Room:		1
+	MaxInGame:	1
+[Resets/3]
+	Type:		Trigger
+	Trigger:	10
+	TriggerType:	Room
+	Room:		1
+[Resets/4]
+	Type:		Trigger
+	Trigger:	10
+	TriggerType:	Room
+	Room:		0
+[Resets/5]
+	Type:		Trigger
+	Trigger:	10
+	TriggerType:	Room
+	Room:		99
+[Resets/6]
+	Type:		Remove
+	Object:		50
+	Room:		1211
+[Resets/7]
+	Type:		Object
+	Object:		50
+	Room:		1211
+[Resets/8]
+	Type:		Mobile
+	Mobile:		50
+	Room:		1211
+	MaxInGame:	1
+[Resets/9]
+	Type:		Trigger
+	Trigger:	10
+	TriggerType:	Room
+	Room:		3
+BREAK

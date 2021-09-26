@@ -1,0 +1,22 @@
+-----------------------------------------------------------------------------`n
+`GMovement`n:                          | `GCommunication/Misc`n:
+NORTH SOUTH EAST WEST UP DOWN      | SAY GSAY SHOUT WHISPER TELL `cMSAY`n
+LOOK EXITS ENTER LEAVE `cDRIVE SCAN`n  | GOSSIP GRATS BITCH MUSIC NOCHAT
+SLEEP WAKE REST SIT STAND `cWATCH`n    | NOTELL NOBITCH NOMUSIC `cHISTORY`n
+(LOCK UNLOCK OPEN CLOSE)
+-----------------------------------------------------------------------------
+`GObjects`n:                           | `GInformation`n:
+GET GRAB DROP PUT GIVE WEAR `cEQ INV`n | WHO SCORE LEVEL `cPROMOTE MP POLICY`n
+REMOVE LOOK INSTALL DESTROY `cMEQ`n    | `cCHANGES MOTD WIZLIST WIZCALL ATTR PRAC`n 
+`cCMEQ HMEQ`n                          | `cCLASSES`n CREDITS TOGGLE FLAGS AUTOEXITS
+-----------------------------------------------------------------------------
+`GCombat`n:                            | `GUtility`n:
+KILL MP WIELD FLEE SHOOT SPRAY     | BUG IDEA TYPO QUIT SAVE BRIEF COMPACT
+THROW RELOAD `cHIDE SNEAK GROUP`n      | SOCIALS DISPLAY `cSTAFF TERRAFORMER MOP`n
+`cASSIST RESCUE RETREAT COVER VIS`n    |
+-----------------------------------------------------------------------------
+`GMost Helpful`n:
+`cWEAPON ARMOR RIFLEMAN HUNTER DRONE SENTRY SNIPER MISSION TOKEN MAP PLANETS`n
+`cZONE ZONES2 CHAT CLANS PRIZE AWARDS ALIEN_SKILLS PRED_SKILLS MARINE_SKILLS`n
+-----------------------------------------------------------------------------
+Further information available by typing `chelp`n <keyword>

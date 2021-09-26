@@ -1,0 +1,1518 @@
+[Object 12:0]
+	Virtual:	:0
+	Keywords:	board screen terminal access
+	Name:		the Announcements screen
+	RoomDescription:	The Announcements screen is mounted to the wall.
+	Description:$
+undefined~
+	Type:		BOARD
+	[Values]
+		ReadLevel:	1
+		WriteLevel:	103
+		RemoveLevel:	104
+[Object 12:1]
+	Virtual:	:1
+	Keywords:	Fountain, water fountain, lion
+	Name:		a large marble fountain sets at the center of this room
+	RoomDescription:	`WA large marble fountain of unworldly beauty.`n
+	Description:$
+As you walk around the fountain you note the fine craftmanship and many hours
+that went into its creation.  Four female statues, all of unsurpassing beauty
+are placed in a circular pattern.  From each urn carried by the women water
+flows and cascades into the water basin below.  You feel an inner peace as you
+gaze into the eyes of the statues perched atop this marvelous fountain.    
+~
+	Type:		FOUNTAIN
+	Weight:		505
+	[Values]
+		Capacity:	500
+		Contents:	500
+		Type:		water
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	fountain, marble, waterfountain, statue
+			Description:$
+As you walk around the fountain you note the fine craftmanship and many hours
+that went into its creation.  Four female statues, all of unsurpassing beauty
+are placed in a circular pattern.  From each urn carried by the women water
+flows and cascades into the water basin below.  You feel an inner peace as you
+gaze into the eyes of the statues perched atop this marvelous fountain.    
+~
+	[Scripts]
+		Script 1:	:1
+	[Variables]
+		[Variable 1]
+			Name:		testvar
+			Value:		12
+[Object 12:2]
+	Virtual:	:2
+	Keywords:	desk olorins
+	Name:		Olorins Desk
+	RoomDescription:	A large mahogany desk sits here, dominating the room.
+	Type:		CONTAINER
+	[Values]
+		Capacity:	10
+		Key:		0
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	pippens desk
+			Description:$
+   From looking at the sides, it is plainly evidant that this is a well
+fashioned and beautiful desk.  However, the top is so covered in various
+papers, folers, and food stuffed that it is nearly impossable to see any part
+of the surface at all.    
+~
+[Object 12:3]
+	Virtual:	:3
+	Keywords:	shelf book
+	Name:		a large book shelf
+	RoomDescription:	A large book shelf is here with lots of books in it.
+	Description:$
+Current Titles:
+- "Mob Progs Made Easy" A Mob Prog Tutorial.
+~
+	Type:		CONTAINER
+	Weight:		50000
+	[Values]
+		Capacity:	20000
+		Key:		0
+[Object 12:4]
+	Virtual:	:4
+	Keywords:	tree cherry beautiful
+	Name:		a beautiful `rcherry`w tree`n
+	RoomDescription:	A beautiful `rcherry`w tree`n stands before you, cherry blossoms in full bloom!
+	Type:		CONTAINER
+	[Values]
+		Capacity:	100
+		ContainerFlags:	CLOSEABLE 
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	tree cherry beautiful
+			Description:$
+A beautiful cherry stands here, blossoming with a myriad of deep red cherries,
+ripe for the taking.  Just open the tree up alittle.    
+~
+	[Scripts]
+		Script 1:	:3
+[Object 12:5]
+	Virtual:	:5
+	Keywords:	cherry fruit food
+	Name:		a plump `rred `gc`rherry`n
+	RoomDescription:	a perfectly ripe plump red cherry
+	Type:		FOOD
+	WearFlags:	TAKE HOLD 
+	Weight:		1
+	[Values]
+		Fill:		20
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	cherry
+			Description:$
+Just gazing at this luscious little fruit makes your mouth water.  What are you
+waiting for?  Eat it!    
+~
+[Object 12:6]
+	Virtual:	:6
+	Keywords:	blossom petals
+	Name:		white petals of a cherry blossom
+	RoomDescription:	Soft white fragrant petals flutter here.
+	Type:		OTHER
+	WearFlags:	TAKE 
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	petals blossom
+			Description:$
+These soft white petals flutter gently in your hands.  You inhale their sweet scent.
+~
+	[Scripts]
+		Script 1:	:2
+[Object 12:7]
+	Virtual:	:7
+	Keywords:	board suggestion
+	Name:		Zone Suggestion Board
+	RoomDescription:	Zone Suggestion Board
+	Type:		BOARD
+	[Values]
+		ReadLevel:	1
+		WriteLevel:	1
+		RemoveLevel:	104
+[Object 12:8]
+	Virtual:	:8
+	Keywords:	cat stuffed jake
+	Name:		a plush stuffed Jake
+	RoomDescription:	A plushed stuffed Jake, which is a gift from FearItself.
+	Type:		OTHER
+	ExtraFlags:	MISSION 
+	WearFlags:	TAKE 
+	[Scripts]
+		Script 1:	:9
+[Object 12:9]
+	Virtual:	:9
+	Keywords:	olorin's chair
+	Name:		Olorin's Chair
+	RoomDescription:	Olorin's chair sits here, looking extraordinarily comfortable.
+	Type:		CHAIR
+	WearFlags:	WAIST 
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	chair plush leather
+			Description:$
+   A nice, comfy brown swivel chair, it is obvious that this chair cost the
+owner a pretty penny.    
+~
+	[Scripts]
+		Script 1:	:13
+[Object 12:10]
+	Virtual:	:10
+	Keywords:	board terminal terraformer screen access
+	Name:		the Terraformers message terminal
+	RoomDescription:	The Terraformers' Division message terminal stands here.
+	Description:$
+undefined~
+	Type:		BOARD
+	[Values]
+		ReadLevel:	101
+		WriteLevel:	101
+		RemoveLevel:	101
+[Object 12:11]
+	Virtual:	:11
+	Keywords:	board terminal
+	Name:		the Software Division access terminal
+	RoomDescription:	The Software Division message terminal is built into the table.
+	Description:$
+undefined~
+	Type:		BOARD
+	[Values]
+		ReadLevel:	1
+		WriteLevel:	100
+		RemoveLevel:	100
+[Object 12:12]
+	Virtual:	:12
+	Keywords:	board terminal
+	Name:		the Company's primary message terminal
+	RoomDescription:	The Company's primary message terminal is built into the table.
+	Description:$
+undefined~
+	Type:		BOARD
+	[Values]
+		ReadLevel:	101
+		WriteLevel:	101
+		RemoveLevel:	101
+[Object 12:13]
+	Virtual:	:13
+	Keywords:	terminal board usenet
+	Name:		a usenet terminal
+	RoomDescription:	A usenet terminal is here, connected to the Company's social newsgroup.
+	Description:$
+undefined~
+	Type:		BOARD
+	[Values]
+		ReadLevel:	1
+		WriteLevel:	1
+		RemoveLevel:	102
+[Object 12:14]
+	Virtual:	:14
+	Keywords:	terminal board security important secterm
+	Name:		a Security Department incident report terminal
+	RoomDescription:	An important board belonging to the Security Department is here.
+	Description:$
+undefined~
+	Type:		BOARD
+	[Values]
+		ReadLevel:	101
+		WriteLevel:	101
+		RemoveLevel:	105
+[Object 12:15]
+	Virtual:	:15
+	Keywords:	Olorins Notepad Board Terminal
+	Name:		Olorin's Notepad
+	RoomDescription:	Olorin's notepad lies here, inviting those who wish to write something to write away.
+	Type:		BOARD
+	WearFlags:	HOLD 
+	[Values]
+		ReadLevel:	1
+		WriteLevel:	1
+		RemoveLevel:	103
+[Object 12:16]
+	Virtual:	:16
+	Keywords:	An old fashioned record player
+	Name:		an old fashioned record player
+	RoomDescription:	An old fashioned record player sits here on a table, playing Mozart.
+	Type:		OTHER
+	ExtraFlags:	HUM 
+	WearFlags:	HOLD 
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	record player old fashioned
+			Description:$
+   A small, cherry wood record player, this is the old type with the huge horn
+for a speaker, like the one in the old RCA comercials.  The Gentle strains of
+Mozart eminate from the horn, soothing your every woe.    
+~
+	[Scripts]
+		Script 1:	54:24
+[Object 12:17]
+	Virtual:	:17
+	Keywords:	A sharp fountain pen
+	Name:		a sharp looking fountain pen.
+	RoomDescription:	A sharp looking fountain pen lies here, dripping ink.
+	Type:		WEAPON
+	ExtraFlags:	GLOW 
+	WearFlags:	WIELD 
+	[Values]
+		Damage:		300
+		DamageType:	Blunt
+		AttackType:	stab
+		Strength:	0
+[Object 12:18]
+	Virtual:	:18
+	Keywords:	A White Skirt
+	Name:		a White Skirt.
+	RoomDescription:	A White Skirt Lies Here.
+	Type:		ARMOR
+	ExtraFlags:	NO-LOSE 
+	WearFlags:	TAKE LEGS 
+	[Values]
+		Blunt:		-500
+[Object 12:19]
+	Virtual:	:19
+	Keywords:	log wood wooden
+	Name:		a wooden log
+	RoomDescription:	A Log from Blammo sits here.. it looks great for a snack! It's Log Log Log!!
+	Type:		OTHER
+	WearFlags:	TAKE HEAD 
+	[Restrictions]
+		Race:		alien 
+[Object 12:20]
+	Virtual:	:20
+	Keywords:	PowerCenter computer
+	Name:		the PowerCenter 132
+	RoomDescription:	The PowerCenter 132, the heart of Aliens vs. Predator, is sitting on a desk.
+	Type:		VEHICLE HATCH
+	[Values]
+		Vehicle:	1222
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	computer powercenter macintosh
+			Description:$
+   You are looking at a REAL modern computer.  This work of art has a powerful
+PowerPC 604 processor running at a blazing 132 MHz, a 512k Level 2 Cache, and
+48 MB of RAM.  The 2 GB hard drive provides enough room for all uses, and the
+ZIP drive provides perfect backup and external media storage.    
+~
+[Object 12:21]
+	Virtual:	:21
+	Keywords:	monitor sony trinitron multiscan15sx screen
+	Name:		a Sony Trinitron MultiScan15sx monitor
+	RoomDescription:	A Sony Trinitron MultiScan15sx is sitting on top of a desk.
+	Type:		BOARD
+	Weight:		1
+	[Values]
+		ReadLevel:	101
+		WriteLevel:	101
+		RemoveLevel:	101
+[Object 12:22]
+	Virtual:	:22
+	Keywords:	keycard card
+	Name:		a Security Level 34 Keycard
+	RoomDescription:	A keycard with the number '34' on it lies here.
+	Type:		KEY
+	ExtraFlags:	NO-DONATE NO-SELL 
+	WearFlags:	TAKE 
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	keycard card
+			Description:$
+   This security card gives the holder access level 34.    
+~
+[Object 12:23]
+	Virtual:	:23
+	Keywords:	chair executive
+	Name:		an executive-style chair
+	RoomDescription:	FearItself's executive-style chair is here, waiting for him.
+	Type:		CHAIR
+[Object 12:24]
+	Virtual:	:24
+	Keywords:	doll machine robotic programmable
+	Name:		`Ka p`wrogrammable`R, `Kr`wobotic `KM`wachine `Kd`woll`n
+	RoomDescription:	`Ka p`wrogrammable`R, `Kr`wobotic `KM`wachine `Kd`woll`n is standing here.
+	Type:		OTHER
+	ExtraFlags:	MISSION SAVE-VARIABLES 
+	WearFlags:	TAKE HOLD TAIL 
+	[Scripts]
+		Script 1:	:24
+		Script 2:	138:24
+	[Variables]
+		[Variable 1]
+			Name:		machinelevel
+			Value:		1
+[Object 12:25]
+	Virtual:	:25
+	Keywords:	leather chair
+	Name:		a black leather chair
+	RoomDescription:	A big black leather chair is here waiting for someone to sit on it.
+	Type:		CHAIR
+	AffectFlags:	VACUUM-SAFE 
+	Weight:		35
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	chair
+			Description:$
+a large black leather chair
+~
+[Object 12:26]
+	Virtual:	:26
+	Keywords:	Olorins Motava Teleporter
+	Name:		Olorins Motava Teleporter
+	RoomDescription:	Olorins teleporter to the Motava sits here, waiting for you to enter it.
+	Type:		VEHICLE
+	ExtraFlags:	GLOW HUM 
+	[Values]
+		Entry:		8006
+		StartRoom:	0
+		EndRoom:	1
+[Object 12:27]
+	Virtual:	:27
+	Keywords:	A engraved stone fireplace.
+	Name:		an Engraved Stone Fireplace
+	RoomDescription:	An engraved stone fireplace sits on the northern wall, crackling away.
+	Type:		VEHICLE
+	ExtraFlags:	GLOW 
+	[Values]
+		Entry:		411
+		VehicleFlags:	GROUND 
+		StartRoom:	0
+		EndRoom:	1
+[Object 12:28]
+	Virtual:	:28
+	Keywords:	terminal building board
+	Name:		the building project board
+	RoomDescription:	A small terminal for the building department is here.
+	Type:		BOARD
+	[Values]
+		ReadLevel:	101
+		WriteLevel:	101
+		RemoveLevel:	103
+[Object 12:29]
+	Virtual:	:29
+	Keywords:	a wide oak desk
+	Name:		a wide black oak desk
+	RoomDescription:	There is a solid oak desk that is plated with glass
+	Type:		BOARD
+	ExtraFlags:	GLOW 
+	Weight:		150
+	[Values]
+		ReadLevel:	5
+		WriteLevel:	5
+		RemoveLevel:	100
+[Object 12:30]
+	Virtual:	:30
+	Keywords:	Trash Bin
+	Name:		a large trash bin
+	RoomDescription:	You see a large trash bin sitting in the corner of the room.
+	Type:		CONTAINER
+	[Values]
+		Capacity:	32000
+		ContainerFlags:	CLOSEABLE 
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	small white throne nothingness
+			Description:$
+Its seems do damn plain.
+~
+[Object 12:31]
+	Virtual:	:31
+	Keywords:	Black Leath Couch
+	Name:		a leather couch
+	RoomDescription:	You see a very large black leather couch awaiting people to sit in it
+	Type:		BED
+	ExtraFlags:	GLOW 
+	Weight:		200
+	[Values]
+		Capacity:	5
+[Object 12:32]
+	Virtual:	:32
+	Keywords:	stuffed dog fido
+	Name:		a stuffed dog named "`rFido`n"
+	RoomDescription:	A stuffed dog named "`rFido`n" is here!
+	Type:		TREASURE
+	WearFlags:	TAKE 
+	[Restrictions]
+		Race:		alien 
+[Object 12:33]
+	Virtual:	:33
+	Keywords:	Gigantic silk bed
+	Name:		a enormous bed that looks quite comfy
+	RoomDescription:	You see a gigantic down filled bed with large silk covers, it also has rune markings at the sides of the bed
+	Type:		BED
+	ExtraFlags:	GLOW 
+	Weight:		300
+	[Values]
+		Capacity:	5
+[Object 12:34]
+	Virtual:	:34
+	Keywords:	a bedroom dresser
+	Name:		a large bedroom dresser
+	RoomDescription:	You see a large black polished solid oak dresser that stands tall in the room, it is also giving off soft tones like a wind chime.
+	Type:		CONTAINER
+	ExtraFlags:	GLOW HUM 
+	[Values]
+		Capacity:	32000
+		ContainerFlags:	CLOSEABLE PICKPROOF 
+[Object 12:35]
+	Virtual:	:35
+	Keywords:	terminal ASCII
+	Name:		an ASCII terminal
+	RoomDescription:	An ASCII terminal is here, dishing out text based awesome.
+	Description:$
+It is an ASCII terminal.
+~
+	Type:		BOARD
+	Weight:		2147483647
+	[Values]
+		RemoveLevel:	105
+[Object 12:36]
+	Virtual:	:36
+	Keywords:	oak desk yegg large
+	Name:		a large oak desk
+	RoomDescription:	A large oak desk cluttered with papers, Yegg's computer, and stereo sits in the corner.
+	Type:		OTHER
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	yegg desk messy computer comp stereo radio clutter papers
+			Description:$
+Hmmm, could this really be the desk of such a genious?
+~
+[Object 12:37]
+	Virtual:	:37
+	Keywords:	saddam dart board bill gates target bull's eye
+	Name:		a dartboard
+	RoomDescription:	A dart board with a picture of Saddam Husein and Bill Gates hangs from the wall.
+	Type:		OTHER
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	saddam husein bill gates dart board
+			Description:$
+Nice dart board. Evill people!!!! Kill them now!!!
+~
+[Object 12:38]
+	Virtual:	:38
+	Keywords:	nice leather squish squichy chair yegg
+	Name:		a soft leather chair
+	RoomDescription:	A soft leather chair invites you to take a seat.
+	Type:		CHAIR
+	Weight:		10
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	nice soft leather chair
+			Description:$
+Take a seat.
+~
+[Object 12:39]
+	Virtual:	:39
+	Keywords:	desk oak black
+	Name:		a large black oak desk plated with glass
+	RoomDescription:	A large black out desk plated with a layer of glass polished to a bright shine.
+	Type:		CONTAINER
+	Weight:		500
+	[Values]
+		Capacity:	10000
+		ContainerFlags:	CLOSEABLE PICKPROOF CLOSED LOCKED 
+		Key:		5199
+[Object 12:40]
+	Virtual:	:40
+	Keywords:	Mina boss seat
+	Name:		a large black leather desk chair
+	RoomDescription:	A large leather desk chair sits here behind the desk.
+	Type:		CHAIR
+	Weight:		250
+[Object 12:41]
+	Virtual:	:41
+	Keywords:	couch leather gray
+	Name:		a large grey leather couch
+	RoomDescription:	A large grey leather couch is here in the corner.
+	Type:		CHAIR
+	ExtraFlags:	GLOW 
+	[Values]
+		Capacity:	5
+[Object 12:42]
+	Virtual:	:42
+	Keywords:	large oak cabinet glass
+	Name:		a large glass plated oak cabinet
+	RoomDescription:	A large glass plated oak cabinet is tucked in the corner.
+	Type:		CONTAINER
+	ExtraFlags:	GLOW 
+	[Values]
+		Capacity:	100
+		ContainerFlags:	CLOSEABLE 
+[Object 12:43]
+	Virtual:	:43
+	Keywords:	A nice grey chair
+	Name:		a nice dark grey chair
+	RoomDescription:	An overstuffed grey chair is here, waiting for someone to sit on it.
+	Type:		CHAIR
+[Object 12:45]
+	Virtual:	:45
+	Keywords:	slate clawed
+	Name:		a slate with bloody, clawed markings
+	RoomDescription:	A slate with bloody claw markings awaits the return of Hades.
+	Type:		BOARD
+	Weight:		999
+	[Values]
+		ReadLevel:	103
+		WriteLevel:	1
+		RemoveLevel:	103
+[Object 12:46]
+	Virtual:	:46
+	Keywords:	mission suggestion board
+	Name:		Mission Suggestion Board
+	RoomDescription:	The Mission Suggestion Board.
+	Type:		BOARD
+	[Values]
+		ReadLevel:	1
+		WriteLevel:	1
+		RemoveLevel:	104
+[Object 12:47]
+	Virtual:	:47
+	Keywords:	chair leather black torn 
+	Name:		an old black leather chair
+	RoomDescription:	An easy chair with torn black leather upholstery sits in the corner.
+	Type:		CHAIR
+[Object 12:48]
+	Virtual:	:48
+	Keywords:	trash can plastic
+	Name:		a plastic trash can
+	RoomDescription:	A large plastic trash can with the Company logo is against the wall.
+	Type:		CONTAINER
+	[Values]
+		Capacity:	500
+[Object 12:49]
+	Virtual:	:49
+	Keywords:	bucket mop yellow
+	Name:		`na `ybright yellow`n mop bucket
+	RoomDescription:	`gA `Ybright yellow`n`g mop bucket is just inside the door.`n
+	Type:		FOUNTAIN
+	WearFlags:	TAKE 
+	Weight:		505
+	[Values]
+		Capacity:	500
+		Contents:	500
+		Type:		water
+		Poisoned:	1
+[Object 12:50]
+	Virtual:	:50
+	Keywords:	non color restring coupon ticket
+	Name:		a non-color restring coupon
+	RoomDescription:	A Golden Ticket is on the ground here.
+	Description:$
+This ticket is redeemable at anytime for <1> free restring only!  This ticket approx MP cost is 350+! 
+~
+	Type:		NOTE
+	ExtraFlags:	NO-LOSE 
+	WearFlags:	TAKE 
+	[Restrictions]
+		Race:		alien 
+	[Variables]
+		[Variable 1]
+			Name:		tokenvalue
+			Value:		5
+[Object 12:51]
+	Virtual:	:51
+	Keywords:	escape pod
+	Name:		`nA damaged `bescape pod`n
+	RoomDescription:	`nAn `bescape pod `nappears to have crashed here.
+	Type:		VEHICLE
+	ExtraFlags:	GLOW HUM MOVEABLE 
+	[Values]
+		Entry:		1237
+		VehicleFlags:	GROUND AIR SPACE DEEPSPACE ABOVEWATER 
+		StartRoom:	1237
+		EndRoom:	1238
+[Object 12:52]
+	Virtual:	:52
+	Keywords:	Board terminal pin push big gold
+	Name:		a human resources board
+	RoomDescription:	A human resources board is here.
+	Description:$
+A large board is here for people who wish to express an intrest in helping AVP out in its on going mission to create new worlds and better the MUD.
+~
+	Type:		BOARD
+	ExtraFlags:	GLOW 
+[Object 12:53]
+	Virtual:	:53
+	Keywords:	Escape Pod Window
+	Name:		a small view screen
+	RoomDescription:	A small view screen is on the wall.
+	Type:		VEHICLE WINDOW
+	ExtraFlags:	INVISIBLE 
+	[Values]
+		Vehicle:	1251
+[Object 12:54]
+	Virtual:	:54
+	Keywords:	escape pod hatch
+	Name:		a hatch
+	RoomDescription:	A small air sealed hatch.
+	Type:		VEHICLE HATCH
+	ExtraFlags:	INVISIBLE 
+	[Values]
+		Vehicle:	1251
+[Object 12:55]
+	Virtual:	:55
+	Keywords:	a large throne
+	Name:		a large throne made out of Ooman bones
+	RoomDescription:	A large throne stands here.
+	Type:		CHAIR
+[Object 12:56]
+	Virtual:	:56
+	Keywords:	hyperspace chamber
+	Name:		a hyperspace chamber
+	RoomDescription:	An empty hyperspace chamber appears to be connected to the wall.
+	Type:		CHAIR
+[Object 12:57]
+	Virtual:	:57
+	Keywords:	listing map staff office direct
+	Name:		`yan office location listing`n
+	RoomDescription:	`y*`n `wA`n `Glisting`n`y/`n`wdirectional `n`Gmap`n `wof AvP staff offices is floating here.`n`n
+	Description:$
+FearItself: U, E, E  Dalvey:   S, S, E       Rommel:     D, D, E
+Lividity:   U, U, W  Flichen:  S, S, S, W    Dimension:  D, D, W
+Vrasp:      U, W     Superman: S, S, S, E    Lastorus:   D, W
+Entity:     U, U, N  Deed:     S, S, S, S, E Galt:       D, E
+Prophet:    U, S     Raid:     S, S, W       Balrog:     D, S
+Incursion:  U, U, E  Geno:     U, N          Vidarr:     D, N
+                     Terin:    S, E          Blizzard:   D, D, N
+                     Jypsy:    S, W
+~
+	Type:		NOTE
+	Weight:		1000
+	[Restrictions]
+		Level:		1
+[Object 12:58]
+	Virtual:	:58
+	Keywords:	chair luxurious large velvet plush prism
+	Name:		`Wa luxurious velvet chair`n
+	RoomDescription:	`WA luxurious chair, made completely out of velvet plush, is sitting here.`n
+	Type:		CHAIR
+[Object 12:59]
+	Virtual:	:59
+	Keywords:	obj test seishin
+	Name:		Seishin's test obj
+	RoomDescription:	seishin's test obj is here.`n
+	WearFlags:	TAKE HOLD 
+	[Scripts]
+		Script 1:	fearitself:20
+		Script 2:	fearitself:21
+[Object 12:60]
+	Virtual:	:60
+	Keywords:	podium owrthy immortal judgement
+	Name:		the podium of immortal judgement`n
+	RoomDescription:	the podium of immortal judgement stands here in all its glory.`n
+	Type:		CHAIR
+	[Restrictions]
+		Level:		101
+[Object 12:61]
+	Virtual:	:61
+	Keywords:	gavel immortal condemnation
+	Name:		the righteous gavel of immortal condemnation`n
+	RoomDescription:	the righteous gavel of immortal condemnation is lying here.`n
+	WearFlags:	TAKE HOLD 
+	[Restrictions]
+		Level:		101
+[Object 12:62]
+	Virtual:	:62
+	Keywords:	robes infinite black immortal arbitration
+	Name:		the infinite black robes of immortal arbitration`n
+	RoomDescription:	the infinite black robes of immortal arbitration are hanging here.`n
+	Type:		ARMOR
+	WearFlags:	TAKE ABOUT 
+	[Restrictions]
+		Level:		101
+[Object 12:64]
+	Virtual:	:64
+	Keywords:	nife knife fite pig sticker
+	Name:		`nan official '`rN`KIF`rE F`KIT`rE`n' pig sticker o==]____/`n
+	RoomDescription:	an official 'NIFE FITE' pig sticker is stuck in the ground here.`n
+	Type:		WEAPON
+	ExtraFlags:	NO-LOSE MISSION SAVE-VARIABLES NO-PUT HALF-MELEE-DAMAGE 
+	WearFlags:	TAKE WIELD 
+	AffectFlags:	INVIS SENSE-LIFE DET-INVIS SANCT FLYING INFRA NO-TRACK SNEAK HIDE ACIDPROOF 
+	[Values]
+		Damage:		30
+		DamageType:	Slash
+		Skill:		Melee Weapons
+		AttackType:	slash
+		Rate:		5
+		Speed:		0.5
+		Strength:	0
+	[Affects]
+		[Affect 1]
+			Location:	MAXHIT
+			Modifier:	10000
+		[Affect 2]
+			Location:	COORDINATION
+			Modifier:	100
+		[Affect 3]
+			Location:	Melee Weapons
+			Modifier:	75
+	[Scripts]
+		Script 1:	:70
+[Object 12:65]
+	Virtual:	:65
+	Keywords:	grenade complaint department hand
+	Name:		a complaint department hand grenade`n
+	RoomDescription:	a complaint department hand grenade is sitting here, with a numbered tag attached to the pin.`n
+	Description:$
+   All complaintants should take a number and get in line.    
+~
+[Object 12:66]
+	Virtual:	:66
+	Keywords:	dimpusburger food object
+	Name:		a Dimpusburger food object`n
+	RoomDescription:	a dimpusburger food object is lying here`n
+	Type:		FOOD
+	ExtraFlags:	NO-LOSE 
+	WearFlags:	TAKE 
+	Weight:		1
+[Object 12:67]
+	Virtual:	:67
+	Keywords:	aliteracola
+	Name:		Aliteracola`n
+	RoomDescription:	Aliteracola is sitting here.`n
+	Type:		LIQ CONTAINER
+	ExtraFlags:	NO-LOSE 
+	WearFlags:	TAKE HOLD 
+	Weight:		255
+	[Values]
+		Capacity:	250
+		Contents:	250
+		Type:		water
+[Object 12:68]
+	Virtual:	:68
+	Keywords:	nightstick night stick team ramrod
+	Name:		a nightstick with 'Team Ramrod' carved into it`n
+	RoomDescription:	a nightstick is lying here.`n
+	Type:		WEAPON
+	ExtraFlags:	NO-RENT NO-LOSE 
+	WearFlags:	TAKE WIELD 
+	[Restrictions]
+		Race:		predator alien 
+		Level:		99
+	[Values]
+		Damage:		30
+		DamageType:	Blunt
+		Skill:		Melee Weapons
+		AttackType:	bludgeon
+		Rate:		2
+		Speed:		0.5
+		Strength:	0
+	[Affects]
+		[Affect 1]
+			Location:	Melee Weapons
+			Modifier:	100
+	[Scripts]
+		Script 1:	:69
+[Object 12:69]
+	Virtual:	:69
+	Keywords:	skull lividity fite club winnar
+	Name:		`gLividity's skull`n
+	RoomDescription:	Fuck you.`n
+	Type:		OTHER
+	ExtraFlags:	NO-LOSE MISSION 
+	WearFlags:	TAKE FINGER WAIST WRIST WIELD HOLD 
+	AffectFlags:	SENSE-LIFE DET-INVIS FLYING INFRA VACUUM-SAFE 
+	[Affects]
+		[Affect 1]
+			Location:	STRENGTH
+			Modifier:	10
+		[Affect 2]
+			Location:	Unarmed Combat
+			Modifier:	10
+	[Variables]
+		[Variable 1]
+			Name:		tokenvalue
+			Value:		30
+[Object 12:70]
+	Virtual:	:70
+	Keywords:	copier copy machine
+	Name:		a copying machine
+	RoomDescription:	A copying machine makes copies for people.
+	Type:		OTHER
+	[Scripts]
+		Script 1:	:15
+[Object 12:71]
+	Virtual:	:71
+	Keywords:	panel security
+	Name:		a security panel
+	RoomDescription:	A security panel is bolted to the wall here.
+	Type:		OTHER
+	[Variables]
+		[Variable 1]
+			Name:		hackstatnumber
+			Value:		100
+		[Variable 2]
+			Name:		closetype
+			Value:		closes
+		[Variable 3]
+			Name:		hackstatus
+			Value:		100
+		[Variable 4]
+			Name:		lockstatus
+			Value:		1
+		[Variable 5]
+			Name:		hackcheck
+			Value:		90
+		[Variable 6]
+			Name:		pword
+			Value:		133769
+		[Variable 7]
+			Name:		exitnumber1
+			Value:		1246
+		[Variable 8]
+			Name:		exitnumber2
+			Value:		1241
+		[Variable 9]
+			Name:		direction1
+			Value:		south
+		[Variable 10]
+			Name:		direction2
+			Value:		north
+		[Variable 11]
+			Name:		doorname
+			Value:		door
+		[Variable 12]
+			Name:		opentype
+			Value:		opens
+		[Variable 13]
+			Name:		itemname
+			Value:		panel
+		[Variable 14]
+			Name:		isare
+			Value:		is
+[Object 12:72]
+	Virtual:	:72
+	Keywords:	couch blue large
+	Name:		`ba largeass blue couch`n
+	RoomDescription:	`bA largeass blue couch is sitting here.`n
+	Type:		CHAIR
+	[Values]
+		Capacity:	4
+[Object 12:73]
+	Virtual:	:73
+	Keywords:	SkyNet master computer cyberdyne centralized
+	Name:		a centralized Cyberdyne mastercomputer`n
+	RoomDescription:	Cyberdyne's centralized mastercomputer, SkyNet, is plotting the demise of the human race.`n
+[Object 12:74]
+	Virtual:	:74
+	Keywords:	Mission Ops Terminal
+	Name:		a terminal for Mission Operatives.
+	RoomDescription:	A terminal for Mission Operatives sits here, waiting to be written on.
+	Type:		BOARD
+	ExtraFlags:	NO-LOSE STAFF-ONLY 
+	WearFlags:	HOLD 
+	[Values]
+		ReadLevel:	101
+		WriteLevel:	101
+		RemoveLevel:	103
+[Object 12:75]
+	Virtual:	:75
+	Keywords:	guide policy immortal
+	Name:		`wAn `GAvP`n `wImmortal Restrictions/Policies Guide`n
+	RoomDescription:	an immortal restrictions/policies guide is lying here.
+	Description:$
+`R1`n - Multiplaying is not permitted by 101/102 Staff. This means:
+    `BA`y)`n multiplaying in the mortal/mortal sense
+    `BB`y)`n multiplaying your staff character/mortal(s)
+    `BEXCEPTION`y)`n approved play-testing with an authorized test mortal
+ 
+`R2`n - Giving away any of the following without permission is prohibited:
+    `BA`y)`n equipment, esp. in regards to, but not limited to: weapons & armor
+    `BB`y)`n mission point cookies/presents/etc.
+    `BC`y)`n mission points via "reward" or a script
+    `BD`y)`n Staff specific information from the security terminal, stats on 
+       mobs/objects, IP numbers, alt names (especially of staff)
+
+`R3`n - Purchasing/loading of MEQ by 101 staff is `Rprohibited`n.
+  
+`R4`n - Do not create equipment, be it weapons or armor, to be placed on mobs
+    for mobile or player use without permission to do so, and instruction
+    on steps to be taken to prevent misuse.
+ 
+`R5`n - If creating mobs based on existing immortals/mortals, be sure NOT to
+    put his/her name on the namelist as an alias.  This prevents the need
+    to place a '.' before the name when transing the player.
+
+`R6`n - Do not create scripts that perform any of the following functions:
+    `BA`y)`n allow you access to higher-level staff commands
+    `BB`y)`n allow a mortal access to staff commands
+    `BC`y)`n allow for specific player activation, i.e. by only certain players,
+       based on player name or a code that only certain players will know
+    `BD`y)`n allow you to bypass system logs
+ 
+`R7`n - Do not show partisanship. Treat all staff/players with equal respect.
+ 
+`R8`n - Do not meddle in security matters unless there is a great need to do so,
+    and then only if you have been instructed on the proper measures to be
+    taken for specified rule violation(s).  Additionally under this section,
+    be sure to write a message on the security terminal stating player
+    name, IP, and the nature of the violation.
+ 
+`R9`n - Do not kill players, period.  Trans them from a mission.
+ 
+`R10`n - Do not create "personal" objects for your staff character.
+ 
+`R11`n - Do not adjust player stats or level, and/or reimburse them for
+     supposedly "lost" MEQ.  Stay out of the entire aspect of assisting
+     players with issues that senior staff and administrators would
+     normally take care of.
+
+`R12`n - Staff members do not complain or ask questions about gameplay over ANY
+     public forum - be it CHAT or a terminal.  Staff members, while on their
+     moratals, will not contribute in a negative way to any conversation
+     about any aspect of the game.  If a Staff member has a problem with an
+     aspect of the game, or a recent decision, it should be voiced on his
+     staff character, and over wiznet or mudmail.  Staff members must know
+     that they are staffers while on their mortal, and players will see them
+     as such.  They thus represent the Staff while on their mortal.  Staff
+     should act accordingly.  Failing to do this makes the staff look as 
+     though it is incompetent among what it is doing as a whole, aside from
+     conveying irresponsibility, inconsistency, and unprofessionalism.
+
+`G--------------------------------------------------------------------------`n
+This guide is subject to change at any time, and only covers the basics
+of immortal policy.  All mortal policies also apply to immortals, and are
+available by use of the "policy" command.  You are also required to
+read the IMOTD carefully and understand everything contained therein,
+and keep up with the posts of the security terminal, and e-mails sent
+sent out on avp-staff.
+`G--------------------------------------------------------------------------`n
+
+Last updated - `yDecember 12, 2005`n by Prophet
+~
+	Type:		NOTE
+	ExtraFlags:	NO-DROP NO-LOSE MISSION STAFF-ONLY 
+	WearFlags:	TAKE HOLD 
+	Weight:		5
+	[Scripts]
+		Script 1:	:76
+[Object 12:76]
+	Virtual:	:76
+	Keywords:	throne massive bone
+	Name:		`wA massive `n`Wthrone`n`w constructed of `n`rbloodied `n`Kcorpses `n`wand `n`Wbone`n
+	RoomDescription:	`wA massive `n`Wthrone`n`w constructed of `n`rbloodied `n`Kcorpses `n`wand `n`Wbone`n
+	Type:		CHAIR
+[Object 12:77]
+	Virtual:	:77
+	Keywords:	slay command modified
+	Name:		`ba modified `rSLAY`b command`n
+	RoomDescription:	a modified slay command is here, looking menacing!
+	Type:		WEAPON
+	ExtraFlags:	NO-DONATE NO-DROP NO-SELL MISSION NO-PUT 
+	WearFlags:	TAKE WIELD 
+	Weight:		1
+	Cost:		1000000
+	[Values]
+		Damage:		1000
+		DamageType:	Energy
+		Skill:		Melee Weapons
+		AttackType:	whip
+		Rate:		5
+		Speed:		0.1
+		Strength:	5
+	[Affects]
+		[Affect 1]
+			Location:	COORDINATION
+			Modifier:	20
+		[Affect 2]
+			Location:	STRENGTH
+			Modifier:	20
+[Object 12:78]
+	Virtual:	:78
+	Keywords:	greatest thing ever invented
+	Name:		the greatest thing ever invented
+	RoomDescription:	`Gan awesome `YSHINY`G piece of equipment `Rbeckons`G to be taken here!!!`n
+	Type:		TREASURE
+	ExtraFlags:	LOG NO-DROP NO-LOSE NO-PUT 
+	WearFlags:	TAKE 
+	[Scripts]
+		Script 1:	:78
+[Object 12:79]
+	Virtual:	:79
+	Keywords:	raid doll
+	Name:		`wa small stuffed `cRaid`w doll`n
+	RoomDescription:	A small, unfamiliar object was left here.`n
+	Description:$
+A doll..
+~
+	Type:		TREASURE
+	ExtraFlags:	MISSION 
+	WearFlags:	TAKE FINGER WRIST TAIL 
+[Object 12:80]
+	Virtual:	:80
+	Keywords:	vase
+	Name:		a rare Yautja vase
+	RoomDescription:	a large, rare Yauja vase sits in a corner.
+	Description:$
+It appears to be from the late Tjk'ak'thra monastery. Very few of these remain and their
+value is incredible in Yautja society. There are intricate designs painted on it's surface,
+adding to it's delicate beauty. Pictures of ancient Yautja leaders, and brave Warriors
+fighting many Kainde Amehda with only wrist blades adorn it's face.
+~
+	Type:		CONTAINER
+	Weight:		60000
+	[Values]
+		Capacity:	100
+		Key:		0
+[Object 12:81]
+	Virtual:	:81
+	Keywords:	sign
+	Name:		a sign stating, '`f`RNO SHOUTING, KEEP QUIET OR YOU WILL BE PUNISHED!`n'
+	RoomDescription:	A sign sits here stating, '`f`RNO SHOUTING, KEEP QUIET OR YOU WILL BE PUNISHED!`n'.
+	Type:		OTHER
+[Object 12:82]
+	Virtual:	:82
+	Keywords:	pot bubbling
+	Name:		a large bubbling `rpotato `npot
+	RoomDescription:	A large bubbling pot filled with `RHOT `n`rpotatoes `nis here.
+	Type:		FOUNTAIN
+	ExtraFlags:	GLOW 
+	Weight:		50000
+	[Values]
+		Capacity:	20
+		Contents:	20
+		Type:		water
+[Object 12:83]
+	Virtual:	:83
+	Keywords:	aquarium
+	Name:		a lushly planted aquarium
+	RoomDescription:	a `Glushly planted`n `btropical freshwater aquarium`n `Bbubbles`n here.
+	Description:$
+   This aquarium sits on a red mahogany stand.  It has a thick bed of black
+gravel, with a layer of rich red clay hidden beneath to encourage plant growth,
+A thick stand of amazon swords dominate the rear right corner, and red eye and
+serpae tetras dart between their broad leaves.  A profusion of red-leaved
+crpytocoryne produce a thick carpet of vegetation throughout the mid midground.
+Clown loaches and a red-tail black shark browse on the leave that have settled
+on the bed, and a kissing gourami rasps at the glass with it's fleshy lips.  
+
+~
+	Type:		VEHICLE
+	ExtraFlags:	HUM 
+	AffectFlags:	INVIS-2 
+	Weight:		100
+	[Values]
+		Entry:		666
+		VehicleFlags:	UNDERWATER 
+		StartRoom:	0
+		EndRoom:	0
+[Object 12:84]
+	Virtual:	:84
+	Keywords:	lid
+	Name:		a glass lid
+	RoomDescription:	The ceiling here seems to be a glass lid?
+	Type:		VEHICLE HATCH
+	[Values]
+		Vehicle:	1283
+[Object 12:85]
+	Virtual:	:85
+	Keywords:	board clanboard terminal
+	Name:		a clan suggestion board
+	RoomDescription:	A terminal for clan suggestions is mounted on the eastern wall.
+	Type:		BOARD
+	[Values]
+		ReadLevel:	1
+		WriteLevel:	2
+		RemoveLevel:	103
+[Object 12:86]
+	Virtual:	:86
+	Keywords:	terminal board multiplayer
+	Name:		the multiplayer board
+	RoomDescription:	A small terminal for reporting approved multiplaying.
+	Type:		BOARD
+	[Values]
+		ReadLevel:	101
+		WriteLevel:	103
+		RemoveLevel:	104
+[Object 12:88]
+	Virtual:	:88
+	Keywords:	manual directory guide procedures prophetisgay
+	Name:		`wan `GAvP`w Staff Procedures Manual`n
+	RoomDescription:	The AvP Staff Procedures Manual should not be here.
+	Description:$
+`yTable of Contents`n
+
+`cLook Ch1`n - Level 104 and 103 Structure
+`cLook Ch2`n - Level 102 and 101 Structure
+`cLook Ch3`n - Game Balance Protocol
+`cLook Ch4`n - Game Design Protocol
+`cLook Ch5`n - Terraforming, Missions, and Clans Departments
+`cLook Ch6`n - Addition of New Features to Live Game
+~
+	Type:		OTHER
+	ExtraFlags:	STAFF-ONLY 
+	WearFlags:	TAKE 
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	Ch1
+			Description:$
+`GLevel 104`n - Administration
+
+Administrators are not only the eyes and ears of the owner, but are also
+the owner's voice.  They can speak on behalf of the owner, and are also
+responsible for seeing that his requests are delegated to the staff itself.
+
+Administrators usually head up the Game Design and Game Balance
+departments.  They approve any gameplay changes, such as the addition of new
+skills, special equipment, or the rebalancing of game play features.
+Features that do not directly effect gameplay, such as missions, new clans
+and zones, do not require approval from the administration.
+
+The Administration obviously has a say in any aspect of the game,
+regardless of its need for approval.  Administrators are capable of
+implementing any new game feature autonomously, while still taking the 
+proper procedures of updating help changes, the motd, TWiki, help files, etc.
+
+A Head Administrator is usually appointed to have a much larger role among
+the staff and their workings, while also keeping an eye on the system logs.
+The Head Admin works closely with the owner in updating him on the progress
+of new projects and the condition of the MUD, and the Staff.
+
+`GLevel 103`n - Senior Staff
+
+The Senior Staff are usually appointed to be the Heads of specific 
+departments such as Missions, Clans, and Terraforming.  Some staffers may
+be promoted on the basis of good work, maturity, professionalism, productive
+activity, and helpful insight into gameplay issues.
+
+Senior Staff coordinate the efforts of the staffers working in their 
+respective departments.  They function pretty independetly of the 
+administration in that they can work without its direct supervision.  The
+Senior Staff is entrusted with the care of each department.  Senior Staff
+are capable of implementing new additions to the MUD that do not require
+Administrative approval, such as new zones, missions, and clans.  Senior
+Staff must go about the appropriate steps in updating help changes, the motd,
+TWiki, and any other help files when adding new features to the MUD.
+
+Senior Staff who are the Heads of departments must also hire interns to
+work in their departments.  They must advertise for applications, review 
+them, and either request permission for hiring from an Administrator, or
+send the player a notice saying that his or her application was denied.
+Refer to the TWiki file for more info.  They must also go about firing
+interns who fail to meet the expectations set forth during the two week
+evaluation period.  When firing Staff members, Senior Staff must seek
+Administrative approval.
+
+All Senior Staff are expected to use their OLCADMIN wisely, specifically
+in terms of correcting typos, helping clan leaders when the Head of Clans
+is not available to address a very simple issue with a clan base, correcting
+zone errors, and resetting shops.  Senior Staff should never interfere with
+classes, their MEQ, or skills, but should notify the respective
+Administrator as to a possible problem.
+~
+		[ExtraDesc 2]
+			Keywords:	Ch2
+			Description:$
+`GLevel 102`n - Staff
+
+The Staff work directly under the senior staff member of his or her 
+particular department.  New ideas are submitted to the senior staff member,
+who would then see about the work beginning, checking on it, and then if 
+necessary, seeking approval from the administration.  Staff must concern
+themselves only with their department, unless summoned for work in another,
+specifically Game Design.
+
+Staff members cannot delegate new work to other Staff members.  Only the
+Administration or the Senior Staff can put a staffer on a new project.  Staff
+members are equals.  Staffers are expected to maintain decent levels of
+productive activity.  Each staff member works with a specific task at hand
+for completion, and then is delegated another. 
+
+In the event when the real world places a demand on a staffer's MUD time, 
+they must notify their Senior Staff member of how long they will be absent
+and why.  Inactivity is the most common grounds for deletion.
+
+`GLevel 101`n - Intern Staff
+
+Interns are newly hired staff members.  They undergo a trial period of 
+about two weeks, in which they are under close eye of the Senior Staff member
+that hired them.  Interns are expected to log on regularly, and to go about
+the completion of a specific project given to them.  
+
+They should not have any hand in any other aspect of the game, nor should
+they be exploring other areas.  Interns will not load any unneeded items, as
+a full set of WYMEQ is not only useless, but it demonstrates from day one
+the desires of an intern.
+
+It is very important for interns to report directly to their Senior Staff
+member, and to not even concern themselves with the administration.  Interns
+should focus completely on learning the skills necessary to be a full Staff
+member.  Interns are at the bottom of the pecking order, as it is almost a
+form of initiation.
+
+Interns should ask questions and seek help from those in their department
+without any hesitation, as interns are here to learn.  Interns not showing
+satisfactory productivity, who have a poor attitude, or who are disrespectful
+will not be hired for Staff.
+~
+		[ExtraDesc 3]
+			Keywords:	Ch3
+			Description:$
+`GGame Balance Protocol`n  
+
+In many ways, the Game Balance Department is an omnious entity in that it
+oversees classes, skills, and all equipment put into the game.  This requires
+a close relationship with the Game Design Department and even the Clan
+Department (when considering CMEQ).
+
+The Game Balance Department looks to maximize gameplay efficiency, while
+seeking parallelism among all game features, and coherency for players via
+help files and object descriptions.  The most important task is the first,
+gameplay efficiency, in that constant attention is paid to aspects of the 
+game that have either broken down, or could be made better.
+
+The Game Balance Department does not operate via TWiki staff discussions,
+but by private in game deliberation.  It is often times much easier to get
+minor things done when there is a minor amount of discussion about them. 
+Specific Senior Staff and Staff members are usually consulted in these
+regards, so any general staff discussion is usually lightly considered. When
+it comes to major revisions of gameplay, such as the class system,
+deliberation is usually reserved for the administration and its consultants.
+
+The Game Balance Department abides by specific outlines and in-game data
+resources, such as armor ratings, statistic/skill allowances, MEQ weight,
+and DPS restrictions - all of which are fully documented.  Though not set in
+stone, theses guidelines provide a constant for the Department, thus 
+providing a universal foundation for balance.
+
+Both the Game Balance Department and the Game Design Department work 
+together in implementing new class features.  Game Design puts forth a new
+feature, and Game Balance considers it usefulness and affects in gameplay.
+As alluded to before, only specific Senior Staff and Staff members are 
+entrusted with Game Balance work as they demonstrate a wide range of game
+experience with some insight and responsibility. General members should
+generally stay out of Game Balance issues.
+~
+		[ExtraDesc 4]
+			Keywords:	Ch4
+			Description:$
+`GGame Design Protocol`n
+~
+		[ExtraDesc 5]
+			Keywords:	Ch5
+			Description:$
+`GThe Terraforming Department`n
+
+The Terraformer Division manages the creation and balancing of new zones,
+as well as revisions or changes to existing ones. The Terraformer's main tool
+is OLC, Online Creation, a system of menus which allow the Terraformer to
+manipulate mobs, objects and rooms.  While scripting experience is not 
+essential, it is useful for terraforming purposes.  
+
+Terraformer Staff may run missions, but only with permission from the Head
+of Missions.  The Head Builder maintains the right to prohibit staff from
+running missions if Terraformers are not terraforming themselves.
+
+The Terraformer Division has a Head Builder, who directs the efforts of
+the Staff and Interns, as well as any Senior Staff working with him.  Staff
+are encouraged to give their input on the projects that they are working on
+in a mature, organized, and respectful manner on TWiki.  There are always
+several projects requiring work, and the Staff are free to choose the 
+projects in which they wish to participate.  The Head Builder will check
+regularly on each Staff member's work.
+
+Terraformers may be called upon by other departments to work on projects
+not related to the Terraforming Division.
+
+`GThe Missions Department`n
+
+The Mission Department is responsible for running missions on a timely
+basis.  Mission Operators are responsible for creating one's own missions if
+one has the ability to do so.
+  
+Before one begins creating a mission, one must first tell the idea to the
+Head of Missions either through mudmail, in-game, or on TWiki for review.
+Although creating missions is not a required part of being a Mission
+Operator, it is a great way to expand the department.
+
+Mission Operators also have the freedom to build zones with confirmation
+from the Head Builder.  If a Mission Operator feels that he does not have
+any work to do, he may build a zone, come up with a mission to create, or
+seek odd jobs in the Game Design Department.
+
+Mission operators may be called upon by other departments to work on projects
+not related to the Mission Department.
+
+`GThe Clan Department`n
+
+~
+		[ExtraDesc 6]
+			Keywords:	Ch6
+			Description:$
+`GAddition of New Features to Live Game`n
+~
+[Object 12:90]
+	Virtual:	:90
+	Keywords:	clan standards list
+	Name:		a list of clan standards
+	RoomDescription:	A list of clan standards is here.
+	Description:$
+Clan Requirements/Costs/Regulations:
+ 
+Requirements for Making a Clan:
+ 
+- Must be at least level 31 to start/lead a clan.
+- A minimum of 10 members must be maintained at all times. If your clan
+  drops below 10 members, you will have a period of 30 days to build it back up.
+  Any clan that had under 10 members for a period of 30 days, will be deleted
+- No more than 30 members in one clan.
+- There is a processing fee of 5,000 MP to build a new clan.
+- There is a clan base fee of 15,000 MPs to begin construction of stationary
+  clan base
+- There is a clan base fee of 30,000 MPs to begin construction of mobile clan
+  base.
+  This fee can be paid off as you go, and all clan members can donate towards the
+  fee.
+- All clans are subject to Guarana's approval
+- Before your clan will be approved you must provide a in-depth history
+  of how your clan came to be. This will be the deciding factor in your
+  clans approval.
+- There will be NO MULTI-RACIAL CLANS, sorry.
+- Mobile bases will only be allowed to enter a planet, they will not be
+  able to go further down.
+- E-mail background story and a list of leader(s) and members to 
+  `wstephan@immortaldescendant.com`n.
+ 
+`R*`n `WUPDATE:`n `wChanging a clan's name will cost 100k and approval from Guarana!`n
+ 
+ Clan regulations:
+ 
+Stationary Base/Mobile base
+______________________________
+18 basic rooms/10 basic rooms
+1 Teleporter room/1 control room
+1 Board room (can be in start room if you wish)
+2 guards (10k HP and level 100)
+1 non-damage script (such as warning system)
+Stationary gets 2 teleporters (1 race start, 1 to space where you choose)
+Mobile gets 1 teleporter to racial start
+1 Vehicle will be provided for a stationary base. (2 room, clan only controls)
+ 
+**When a new clan is formed, you will be informed of the clan hall regulations.
+***These rules are subject to change at any time.
+ 
+ 
+~
+	Type:		NOTE
+	WearFlags:	TAKE 
+	[Restrictions]
+		Race:		alien 
+[Object 12:91]
+	Virtual:	:91
+	Keywords:	sharp tribble claws
+	Name:		some small yet sharp tribble claws
+	RoomDescription:	some small yet sharp tribble claws lie here.
+	Type:		WEAPON
+	WearFlags:	WIELD 
+	[Restrictions]
+		Race:		human synthetic predator 
+	[Values]
+		Damage:		200
+		DamageType:	Blunt
+		AttackType:	claw
+		Strength:	0
+[Object 12:92]
+	Virtual:	:92
+	Keywords:	lick iron sack immortal tracking
+	Name:		`ra large iron sack with a lock on it`n
+	RoomDescription:	`bA large iron sack with a huge lock on it is here`n
+	Description:$
+this is a mission quest sack from frodo DONT ALTER
+~
+	Type:		CONTAINER
+	ExtraFlags:	NO-LOSE 
+	WearFlags:	FINGER 
+	[Restrictions]
+		Race:		alien 
+	[Values]
+		Capacity:	25
+		ContainerFlags:	CLOSEABLE PICKPROOF CLOSED LOCKED 
+		Key:		13035
+[Object 12:93]
+	Virtual:	:93
+	Keywords:	private geno idea board terminal
+	Name:		Geno's Private Brainstorming Board`n
+	RoomDescription:	`nGeno's personal idea board is sitting along the east wall.`n
+	Type:		BOARD
+	Weight:		100
+	[Values]
+		ReadLevel:	1
+		WriteLevel:	103
+		RemoveLevel:	103
+[Object 12:94]
+	Virtual:	:94
+	Keywords:	sign demolition marked
+	Name:		a `w"`GMARKED FOR DEMOLITION`w" `ysign`n
+	RoomDescription:	a `w"`GMARKED FOR DEMOLITION`w" `ysign `nis posted on the door
+	Description:$
+`wNote: Room set to deleted, will be cleared out upon next reboot.`n
+`wPlease type `cshow delete`w for rooms planned for deletion.`n
+~
+	Type:		NOTE
+	Weight:		10000
+[Object 12:95]
+	Virtual:	:95
+	Keywords:	doll prophet small stuffed
+	Name:		`wa `csmall `rstuffed `GP`Cr`Go`Cp`Gh`Ce`Gt `wdoll`n
+	RoomDescription:	A small stuffed doll of your favorite immortal is lying here.
+	Type:		TREASURE
+	ExtraFlags:	NO-LOSE 
+	WearFlags:	TAKE BODY HEAD HOLD TAIL 
+	[Scripts]
+		Script 1:	:97
+	[Variables]
+		[Variable 1]
+			Name:		tokenvalue
+			Value:		10
+[Object 12:96]
+	Virtual:	:96
+	Keywords:	Diamond Desk
+	Name:		`bD`Bi`Wam`Co`Wnd De`Bs`bk`n
+	RoomDescription:	`KA `bD`Bi`Wam`Co`Wnd De`Bs`bk `bs`Bh`bi`Bm`bm`Be`br`Bs `Rb`Yrightl`Ry`K reflecting `Bblueprints`K for future `mmissions`K.
+	Description:$
+`WThe desk shimmers so brightly you are nearly blinded.`n
+~
+	Type:		CHAIR
+	ExtraFlags:	GLOW HUM 
+	Weight:		900
+	[Values]
+		Capacity:	2
+[Object 12:97]
+	Virtual:	:97
+	Keywords:	tower asteroid planet chunk corporate pog god rock
+	Name:		the Corporate Tower of AvP
+	RoomDescription:	A large hovering chunk of asteroid with a large tower jutting out of it floats here.
+	Type:		VEHICLE
+	[Values]
+		Entry:		1299
+		StartRoom:	0
+		EndRoom:	0
+		Size:		100
+[Object 12:98]
+	Virtual:	:98
+	Keywords:	mat
+	Name:		Meditation Mat
+	RoomDescription:	A Rugged Meditation Mat
+	Type:		CHAIR
+	ExtraFlags:	GLOW 
+	AffectFlags:	SENSE-LIFE DET-INVIS FLYING INFRA TRACKING ACIDPROOF 
+	Timer:		-1
+	[Values]
+		Capacity:	0
+[Object 12:99]
+	Virtual:	:99
+	Keywords:	gerek doll
+	Name:		`Ka `Gsmall `Kstuffed `CGerek `K doll`n
+	RoomDescription:	A handsome looking doll lies on the ground here, brimming with power.
+	Type:		TREASURE
+	ExtraFlags:	MISSION 
+	WearFlags:	TAKE HEAD HOLD TAIL 
+BREAK

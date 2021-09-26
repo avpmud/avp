@@ -1,0 +1,101 @@
+[Object 1]
+	Virtual:	1
+	Keywords:	bug
+	Name:		a bug
+	RoomDescription:	This object is BAD!  If you see it, there must be a bug in the game.  Please report it immediately using the BUG command.
+	Type:		OTHER
+[Object 2]
+	Virtual:	2
+	Keywords:	unfinished object
+	Name:		unfinished object
+	RoomDescription:	An unfinished object is lying here.
+	WearFlags:	TAKE 
+[Object 3]
+	Virtual:	3
+	Keywords:	meqshop
+	Name:		a MEQ shop location flag
+	RoomDescription:	`y*`n A strange `Gglowing`n object hovers here, designating a `cMEQ location`n.
+	Type:		OTHER
+[Object 4]
+	Virtual:	4
+	Keywords:	hunger thirst
+	Name:		a hunger/thirst object`n
+	RoomDescription:	a hunger thirst object.`n
+	Type:		OTHER
+	ExtraFlags:	INVISIBLE NO-DROP NO-LOSE MISSION SAVE-VARIABLES NO-PUT 
+	WearFlags:	TAKE 
+	[Scripts]
+		Script 1:	13
+[Object 20]
+	Virtual:	20
+	Keywords:	ammo design contest terminal board
+	Name:		the ammo design contest terminal
+	RoomDescription:	`gThe `rAMMO DESIGN CONTEST`g terminal - READ #6 BEFORE POSTING`n
+	Type:		BOARD
+	ExtraFlags:	HUM 
+	Weight:		500
+	[Values]
+		WriteLevel:	104
+		RemoveLevel:	104
+[Object 50]
+	Virtual:	50
+	Keywords:	hatch exit
+	Name:		an exit hatch
+	RoomDescription:	An exit hatch has been conveniently added to the ship.
+	Type:		VEHICLE HATCH
+	[Values]
+		Vehicle:	18720
+[Object 53]
+	Virtual:	53
+	Keywords:	object skill
+	Name:		a skill object
+	RoomDescription:	An unfinished object is lying here.
+	Type:		OTHER
+	WearFlags:	TAKE FINGER 
+	[Affects]
+		[Affect 1]
+			Location:	Rifles
+			Modifier:	20
+[Object 57]
+	Virtual:	57
+	Keywords:	throwing weapon
+	Name:		a throwing weapon
+	RoomDescription:	a throwing weapon
+	Type:		THROW
+	WearFlags:	TAKE HOLD 
+	[Values]
+		Damage:		50
+		DamageType:	Impale
+		Skill:		Throwing
+		Range:		5
+		Strength:	0
+[Object 75]
+	Virtual:	75
+	Keywords:	shirt t-shirt
+	Name:		a restringable t-shirt
+	RoomDescription:	Meh, there's a damn shirt lying here. God damn LITTER BUGS!
+	Type:		TREASURE
+	ExtraFlags:	NO-SELL NO-LOSE MISSION 
+	WearFlags:	TAKE BODY 
+	[Restrictions]
+		Race:		alien 
+		Level:		1
+[Object 99]
+	Virtual:	99
+	Keywords:	warning warn paper
+	Name:		a `RWARNING`n
+	RoomDescription:	There shouldn't be a long desc, it's !drop.
+	Type:		OTHER
+	ExtraFlags:	NO-DONATE NO-SELL MISSION TWO-HANDS 
+	WearFlags:	TAKE 
+	Weight:		5
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	warning warn
+			Description:$
+This is a standard issue warning issued to you for doing something you're not supposed to.
+~
+	[Scripts]
+		Script 1:	98
+		Script 2:	99
+BREAK

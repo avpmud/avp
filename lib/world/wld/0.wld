@@ -1,0 +1,132 @@
+[Room 0]
+	Virtual:	0
+	Name:		The Void
+	Description:$
+   You don't think that you are not floating in nothing.  You can see
+a strange portal located above you.
+
+
+Type Recall
+~
+	RoomFlags:	INDOORS SOUNDPROOF
+	Sector:		City
+[Room 1]
+	Virtual:	1
+	Name:		Limbo
+	Description:$
+   You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.  There is a "No
+Tipping" notice pinned to the darkness.    
+
+Type Recall
+~
+	RoomFlags:	DARK INDOORS NO-PK
+	Sector:		City
+[Room 2]
+	Virtual:	2
+	Name:		`RT`BR`YI`MP`GP`CY`n
+	Description:$
+DIE
+~
+	RoomFlags:	DEATH
+	Sector:		Inside
+[Room 3]
+	Virtual:	3
+	Name:		A Totally Empty Room
+	Description:$
+   The walls are completely bare... nothing at all in the room.
+How... utterly bizarre and completely weird.  There is a strange
+portal just above you, and it almost looks as if there is some
+sort of room above you.
+
+Type `crecall`n.
+~
+	RoomFlags:	INDOORS PEACEFUL
+	Sector:		Inside
+[Room 22]
+	Virtual:	22
+	Name:		1
+	Description:$
+You are in an unfinished room.
+~
+	Sector:		Inside
+[Room 23]
+	Virtual:	23
+	Name:		q
+	Description:$
+You are in an unfinished room.
+~
+	Sector:		Inside
+[Room 24]
+	Virtual:	24
+	Name:		y
+	Description:$
+You are in an unfinished room.
+~
+	Sector:		Inside
+[Room 49]
+	Virtual:	49
+	Name:		Pile The Skulls...
+	Description:$
+   Collecting trophies of the Hunt is an honourable past time.  A true Warrior
+will have either a very large display wall, or a few very special kills to
+remember the Hunt by.  Either technique is acceptable.  It is the duty of a
+blooded warrior to earn a reputation among his competitors, and trophies and
+actions are the most effective way of succeeding in this.    
+~
+	Sector:		Inside
+	[Exit east]
+		Destination:	1600
+		Key:		0
+[Room 79]
+	Virtual:	79
+	Name:		A freshly dug room.
+	Description:$
+You are in a freshly dug room.
+~
+	Sector:		Inside
+[Room 99]
+	Virtual:	99
+	Name:		The Realm Of The Dead
+	Description:$
+   You are standing on an immense, grey stone floor that stretches as far
+as you can see in all directions.  Rough winds plunging from the dark,
+starless sky tear savagely at your fragile body.
+~
+	RoomFlags:	INDOORS PEACEFUL SOUNDPROOF PRIVATE
+	Sector:		Inside
+	[Exit north]
+		Destination:	99
+		Description:$
+The hard floor seems to go on forever.
+~
+	[Exit east]
+		Destination:	99
+		Description:$
+The hard floor seems to go on forever.
+~
+	[Exit south]
+		Destination:	99
+		Description:$
+The hard floor seems to go on forever.
+~
+	[Exit west]
+		Destination:	99
+		Description:$
+The hard floor seems to go on forever.
+~
+	[ExtraDescs]
+		[ExtraDesc 1]
+			Keywords:	floor
+			Description:$
+The stone floor is the same shade of grey as the sky and is completely plain
+and unscratched.  It is probably too hard for anything to leave as much as a
+scratch on it.
+~
+		[ExtraDesc 2]
+			Keywords:	sky wind winds
+			Description:$
+Cold winds plunge ceaselessly at you from the dark, cloudless sky.
+~
+BREAK

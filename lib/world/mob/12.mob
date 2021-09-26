@@ -1,0 +1,622 @@
+[Mob 1200]
+	Virtual:	1200
+	Keywords:	Jake cat feline kitty kitten
+	Name:		Jake
+	RoomDescription:$
+Jake, FearItself's cat, is here.
+~
+	Description:$
+   Jake is FearItself's feline companion of over 12 years.  He stalks through
+Company HQ, catching any mice that the robotic sentries might miss.
+~
+	Race:		other
+	Gender:		Male
+	Level:		80
+	BaseHP:		10000
+	MobFlags:	AWARE MEMORY NO-CHARM NO-SNIPE NO-SLEEP NO-BASH NO-BLIND 
+	AffectFlags:	SENSE-LIFE DET-INVIS INFRA NO-TRACK SNEAK 
+	[Attributes]
+		Strength:	500
+		Health:		210
+		Coordination:	210
+		Agility:	210
+		Perception:	210
+		Knowledge:	210
+	[Attack]
+		Type:		claw
+		DamageType:	Slash
+		Damage:		100
+		Rate:		5
+		Speed:		0.20
+	[Armor]
+		Blunt:		80
+		Slash:		80
+		Impale:		80
+		Ballistic:	80
+		Fire:		80
+		Energy:		80
+	[Opinions]
+		[Fear]
+			VNum:		1210
+	[Scripts]
+		Script 1:	1211
+	[Equipment]
+		[Item 1]
+			VNum:		320
+			Location:	waist
+		[Item 2]
+			VNum:		300
+			Location:	righthand
+		[Item 3]
+			VNum:		390
+[Mob 1201]
+	Virtual:	1201
+	Keywords:	mailman postmaster man master
+	Name:		`na `bmail`n`wman`n
+	RoomDescription:$
+`nA `bmail`n`Wman`n stands here, waiting to deliver e-mail.
+~
+	Description:$
+
+   Through rain and meteor showers and alien acidblood and....  Well, you get
+the idea.  Here stands a mailman of the Company.    
+~
+	Race:		human
+	Gender:		Male
+	Level:		100
+	BaseHP:		30000
+	VaryHP:		30000
+	MobFlags:	SENTINEL MEMORY NO-CHARM NO-SNIPE NO-SLEEP NO-BASH NO-BLIND NO-MELEE 
+	AffectFlags:	SENSE-LIFE SANCT FLYING INFRA VACUUM-SAFE ACIDPROOF 
+	[Attributes]
+		Strength:	600
+		Health:		600
+		Coordination:	600
+		Agility:	600
+		Perception:	600
+		Knowledge:	600
+	[Attack]
+		Type:		hit
+		DamageType:	Blunt
+		Damage:		100
+		Speed:		0.20
+	[Armor]
+		Blunt:		99
+		Slash:		99
+		Impale:		99
+		Ballistic:	99
+		Fire:		99
+		Energy:		99
+	[Scripts]
+		Script 1:	11
+		Script 2:	12
+[Mob 1202]
+	Virtual:	1202
+	Keywords:	godzilla eater import lizard monster
+	Name:		`gGodzilla`n
+	RoomDescription:$
+Godzilla, eater of Small import cars 
+~
+	Description:$
+It looks unfinished.
+~
+	Race:		other
+	Gender:		Neutral
+	Level:		99
+	BaseHP:		32000
+	VaryHP:		32000
+	MPValue:	45
+	MobFlags:	SENTINEL SCAVENGER AWARE AGGR AGGR-ALL MEMORY NO-CHARM NO-SNIPE NO-SLEEP NO-BASH NO-BLIND 
+	AffectFlags:	SENSE-LIFE DET-INVIS SANCT INFRA SNEAK TRACKING LIGHT 
+	[Attributes]
+		Strength:	210
+		Health:		210
+		Coordination:	210
+		Agility:	210
+		Perception:	210
+		Knowledge:	210
+	[Attack]
+		Type:		burn
+		DamageType:	Ballistic
+		Damage:		2000
+		Rate:		5
+		Speed:		0.20
+	[Armor]
+		Blunt:		50
+		Slash:		50
+		Impale:		50
+		Ballistic:	50
+		Fire:		50
+		Energy:		50
+[Mob 1204]
+	Virtual:	1204
+	Keywords:	Olga Secretary
+	Name:		Olorin's Secretary
+	RoomDescription:$
+Olorin's secretary Olga stands here taking dictation.
+~
+	Description:$
+
+   She smiles up at you and continues taking notes.  She has wretched
+shorthand, but she looks like a super-model.  You can't help but wonder if
+Olorin had alternative motives for hiring her....    
+~
+	Race:		other
+	Gender:		Female
+	Level:		100
+	BaseHP:		30
+	MobFlags:	ACIDBLOOD 
+	AffectFlags:	SENSE-LIFE DET-INVIS SANCT 
+	[Attributes]
+		Strength:	120
+		Health:		120
+		Coordination:	120
+		Agility:	120
+		Perception:	120
+		Knowledge:	120
+	[Attack]
+		Type:		stab
+		DamageType:	Blunt
+	[Scripts]
+		Script 1:	1208
+		Script 2:	1219
+		Script 3:	1220
+		Script 4:	1221
+		Script 5:	1222
+[Mob 1205]
+	Virtual:	1205
+	Keywords:	restring mob
+	Name:		Weyland-Yutani Title Restring Dealer
+	RoomDescription:$
+A Weyland-Yutani title restring dealer is here, selling new titles.
+~
+	Description:$
+   Careful - she can poke your eyes out with those nipples.  (Usage: title
+<`n`cdesired title`n>)
+~
+	Race:		human
+	Gender:		Neutral
+	Level:		0
+	BaseHP:		5000
+	VaryHP:		5000
+	MobFlags:	SENTINEL 
+	AffectFlags:	SENSE-LIFE DET-INVIS 
+	[Attributes]
+		Strength:	50
+		Health:		50
+		Coordination:	50
+		Agility:	50
+		Perception:	50
+		Knowledge:	50
+	[Attack]
+		Type:		hit
+		DamageType:	Blunt
+		Speed:		0.20
+	[Scripts]
+		Script 1:	1217
+		Script 2:	20095
+		Script 3:	20094
+[Mob 1206]
+	Virtual:	1206
+	Keywords:	morse fiorina 161 guard survivor
+	Name:		the entrance guard, Morse
+	RoomDescription:$
+A survivor from Fiorina 161, Morse, is here, guarding the entrance.
+~
+	Description:$
+Move along.
+~
+	Race:		synthetic
+	Gender:		Male
+	Level:		1
+	BaseHP:		1
+	MobFlags:	SENTINEL 
+	[Attributes]
+		Strength:	50
+		Health:		50
+		Coordination:	50
+		Agility:	50
+		Perception:	50
+		Knowledge:	50
+	[Attack]
+		Type:		hit
+		DamageType:	Blunt
+		Speed:		0.20
+	[Scripts]
+		Script 1:	8318
+		Script 2:	8319
+		Script 3:	8320
+[Mob 1210]
+	Virtual:	1210
+	Keywords:	Jake cat feline kitty kitten
+	Name:		Jake
+	RoomDescription:$
+Jake, FearItself's cat, is here.
+~
+	Description:$
+   Jake is FearItself's feline companion of over 8 years.  He stalks through
+Company HQ, catching any mice that the robotic sentries might miss.
+~
+	Race:		other
+	Gender:		Male
+	Level:		100
+	BaseHP:		1000
+	VaryHP:		2000
+	MobFlags:	AWARE AGGR-ALL MEMORY NO-CHARM NO-SNIPE NO-SLEEP NO-BASH NO-BLIND 
+	AffectFlags:	SENSE-LIFE DET-INVIS SANCT FLYING INFRA NO-TRACK SNEAK CHARM VACUUM-SAFE 
+	[Attributes]
+		Strength:	120
+		Health:		120
+		Coordination:	120
+		Agility:	120
+		Perception:	120
+		Knowledge:	120
+	[Attack]
+		Type:		claw
+		DamageType:	Blunt
+	[Scripts]
+		Script 1:	1211
+[Mob 1212]
+	Virtual:	1212
+	Keywords:	poodle fluffy dog psychotic canine
+	Name:		a fluffy poodle
+	RoomDescription:$
+A fluffy poodle is here, looking for scraps of meat.
+~
+	Description:$
+It looks unfinished.
+~
+	Race:		other
+	Gender:		Neutral
+	Level:		100
+	BaseHP:		300
+	VaryHP:		200
+	MPValue:	5
+	MobFlags:	AWARE AGGR AGGR-ALL HELPER NO-SNIPE AI 
+	AffectFlags:	SENSE-LIFE DET-INVIS GROUP FLYING INFRA VACUUM-SAFE ACIDPROOF 
+	[Attributes]
+		Strength:	250
+		Health:		50
+		Coordination:	300
+		Agility:	300
+		Perception:	630
+		Knowledge:	50
+	[Attack]
+		Type:		bite
+		DamageType:	Slash
+		Damage:		2
+		Rate:		3
+	[AI]
+		AggressionRoom:	100
+		AggressionRanged:	100
+		AggressionLoyal:	100
+		AwarenessRanged:	8
+		MovementRate:	100
+	[Affiliations]
+		Clan:		100
+[Mob 1215]
+	Virtual:	1215
+	Keywords:	rei
+	Name:		`BR`we`Ki`n
+	RoomDescription:$
+`WA`Ky`Ba`bn`Ba`Km`Wi `BR`we`Ki`n in a nice white and blue flightsuit
+~
+	Description:$
+   A lonely looking girl is here, rapid in her work effort and accurate.  Her
+previous job of attempting to save the world failed horribly, after finding
+that she was a clone she chose to do more rewarding work by assisting the
+peasant Hiro.    
+~
+	Race:		synthetic
+	Gender:		Neutral
+	Level:		99
+	BaseHP:		9000
+	VaryHP:		999
+	MobFlags:	SENTINEL AWARE STAY-ZONE MEMORY HELPER AI 
+	AffectFlags:	SENSE-LIFE SANCT GROUP VACUUM-SAFE ACIDPROOF 
+	[Attributes]
+		Strength:	200
+		Health:		100
+		Coordination:	300
+		Agility:	200
+		Perception:	200
+		Knowledge:	200
+	[Attack]
+		Type:		punch
+		DamageType:	Blunt
+		Damage:		100
+		Rate:		5
+		Speed:		0.20
+	[Armor]
+		Blunt:		99
+		Slash:		99
+		Impale:		99
+		Ballistic:	99
+		Fire:		99
+		Energy:		99
+[Mob 1222]
+	Virtual:	1222
+	Keywords:	mesmeric nymph
+	Name:		`ma mesmeric nymph`n
+	RoomDescription:$
+`mLing the ugly old crone hobbles about, looking hideously wrinkley and creepy.
+~
+	Description:$
+   This must be the single most seductive creature alive in the Universe.  
+Untainted and purely innocent, Ling appears to be a gift from the Gods.  She
+stands at about 5 feet and 2 inches, has raven-black long flowing hair, and
+shapely curves at all the right places.  Constantly beaming a cherubic smile,
+she hops about the area talking to critters and the plants.    
+~
+	Race:		other
+	Gender:		Female
+	Level:		100
+	BaseHP:		32000
+	VaryHP:		32000
+	MobFlags:	SENTINEL HELPER PROG-MOB 
+	AffectFlags:	ACIDPROOF 
+	[Attributes]
+		Strength:	210
+		Health:		210
+		Coordination:	210
+		Agility:	210
+		Perception:	210
+		Knowledge:	210
+	[Attack]
+		Type:		hit
+		DamageType:	Blunt
+		Speed:		0.20
+	[Armor]
+		Blunt:		100
+		Slash:		100
+		Impale:		100
+		Ballistic:	100
+		Fire:		100
+		Energy:		100
+[Mob 1234]
+	Virtual:	1234
+	Keywords:	Olorin hologram
+	Name:		a Hologram of Olorin
+	RoomDescription:$
+A Hologram of Olorin stands here.
+~
+	Description:$
+
+   As you gaze at the hologram, its a striking resemblance of Olorin.  
+Bladedtusk must truly honor this man to have a hologram of him.    
+~
+	Race:		alien
+	Gender:		Male
+	Level:		53
+	BaseHP:		1
+	MobFlags:	SENTINEL 
+	[Attributes]
+		Strength:	120
+		Health:		120
+		Coordination:	120
+		Agility:	120
+		Perception:	120
+		Knowledge:	120
+	[Attack]
+		Type:		pierce
+		DamageType:	Blunt
+[Mob 1235]
+	Virtual:	1235
+	Keywords:	mob unfinished
+	Name:		the unfinished mob
+	RoomDescription:$
+An unfinished mob stands here.
+~
+	Description:$
+It looks unfinished.
+~
+	Race:		human
+	Gender:		Neutral
+	Level:		0
+	BaseHP:		1
+	DefaultPosition:	dead
+	MobFlags:	SENTINEL 
+	[Attributes]
+		Strength:	50
+		Health:		50
+		Coordination:	50
+		Agility:	50
+		Perception:	50
+		Knowledge:	50
+	[Attack]
+		Type:		hit
+		DamageType:	Blunt
+		Speed:		0.20
+[Mob 1249]
+	Virtual:	1249
+	Keywords:	vote voting machine 1249
+	Name:		the Voting Machine
+	RoomDescription:$
+The Voting Machine stands here.
+~
+	Description:$
+It looks unfinished.
+~
+	Race:		other
+	Gender:		Neutral
+	Level:		0
+	BaseHP:		1
+	MobFlags:	SENTINEL MECHANICAL 
+	[Attributes]
+		Strength:	50
+		Health:		50
+		Coordination:	50
+		Agility:	50
+		Perception:	50
+		Knowledge:	50
+	[Attack]
+		Type:		hit
+		DamageType:	Blunt
+		Speed:		0.00
+[Mob 1250]
+	Virtual:	1250
+	Keywords:	pog l33t protector
+	Name:		the PoG l33t protector
+	RoomDescription:$
+The PoG protector is here, slaughtering annoying N00bz.
+~
+	Description:$
+   DETH TO ANNOYING N00BZ.    
+~
+	Race:		human
+	Gender:		Neutral
+	Level:		0
+	BaseHP:		32000
+	VaryHP:		32000
+	MobFlags:	SENTINEL AGGR AGGR-ALL MEMORY ACIDBLOOD AI 
+	AffectFlags:	VACUUM-SAFE ACIDPROOF 
+	[Attributes]
+		Strength:	200
+		Health:		200
+		Coordination:	200
+		Agility:	200
+		Perception:	200
+		Knowledge:	200
+	[Attack]
+		Type:		pierce
+		DamageType:	Impale
+		Damage:		100
+		Rate:		2
+		Speed:		0.20
+	[Armor]
+		Blunt:		50
+		Slash:		50
+		Impale:		50
+		Ballistic:	50
+		Fire:		50
+		Energy:		50
+	[AI]
+		AggressionRoom:	100
+		AggressionRanged:	100
+		AggressionLoyal:	100
+	[Opinions]
+		[Hate]
+			Genders:	Male 
+			Races:		human synthetic predator alien 
+[Mob 1269]
+	Virtual:	1269
+	Keywords:	Farva officer rod
+	Name:		Officer Rod Farva
+	RoomDescription:$
+Officer Rod Farva is here, molesting Dimpus Burger employees`n
+~
+	Description:$
+   LICENSE AND REGISTRATION...  CHICKEN FUCKER
+~
+	Race:		human
+	Gender:		Male
+	Level:		100
+	BaseHP:		32000
+	MobFlags:	SENTINEL AWARE MEMORY NO-BASH 
+	AffectFlags:	SENSE-LIFE DET-INVIS 
+	[Attributes]
+		Strength:	300
+		Health:		100
+		Coordination:	400
+		Agility:	50
+		Perception:	50
+		Knowledge:	50
+	[Attack]
+		Type:		thrash
+		DamageType:	Blunt
+		Damage:		30
+		Rate:		2
+		Speed:		0.20
+	[Armor]
+		Blunt:		20
+		Slash:		20
+		Impale:		20
+		Ballistic:	20
+		Fire:		20
+		Energy:		20
+	[Equipment]
+		[Item 1]
+			VNum:		1268
+			Location:	righthand
+[Mob 1270]
+	Virtual:	1270
+	Keywords:	Bub zombie
+	Name:		a zombie named Bub`n
+	RoomDescription:$
+a zombie named Bub is chained to the wall here.`n
+~
+	Description:$
+   Your flesh is delicious.    
+~
+	Race:		human
+	Gender:		Male
+	Level:		100
+	BaseHP:		10000
+	VaryHP:		5000
+	MobFlags:	SENTINEL STAY-ZONE 
+	AffectFlags:	SENSE-LIFE DET-INVIS 
+	[Attributes]
+		Strength:	550
+		Health:		50
+		Coordination:	450
+		Agility:	50
+		Perception:	50
+		Knowledge:	50
+	[Attack]
+		Type:		hit
+		DamageType:	Blunt
+		Damage:		20
+		Rate:		2
+		Speed:		0.74
+	[Equipment]
+		[Item 1]
+			VNum:		913
+			Location:	righthand
+		[Item 2]
+			VNum:		9447
+		[Item 3]
+			VNum:		9447
+		[Item 4]
+			VNum:		9447
+		[Item 5]
+			VNum:		9447
+		[Item 6]
+			VNum:		9447
+		[Item 7]
+			VNum:		9447
+[Mob 1272]
+	Virtual:	1272
+	Keywords:	hunter elite yautjan
+	Name:		an elite Yautjan hunter
+	RoomDescription:$
+An elite Yautjan hunter roams this area looking to earn glory in the hunt.
+~
+	Description:$
+It looks unfinished.
+~
+	Race:		predator
+	Gender:		Male
+	Level:		100
+	BaseHP:		12500
+	VaryHP:		100
+	MPValue:	17
+	MobFlags:	AWARE AGGR WIMPY MEMORY AI 
+	AffectFlags:	SENSE-LIFE DET-INVIS FLYING INFRA SNEAK HIDE VACUUM-SAFE LIGHT 
+	[Attributes]
+		Strength:	210
+		Health:		100
+		Coordination:	210
+		Agility:	210
+		Perception:	210
+		Knowledge:	210
+	[Attack]
+		Type:		hit
+		DamageType:	Blunt
+		Speed:		0.20
+	[AI]
+		AggressionRoom:	100
+		AggressionRanged:	100
+		AggressionLoyal:	100
+		AwarenessRanged:	5
+		MovementRate:	100
+BREAK

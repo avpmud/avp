@@ -1,0 +1,84 @@
+[Mob 1]
+	Virtual:	1
+	Keywords:	puff marine fractal
+	Name:		Puff
+	RoomDescription:$
+Puff the Fractal Marine is here, contemplating how to kill you.
+~
+	Description:$
+This marine never tries to kill anyone, she just thinks about how to do
+it. She also ponders her past life as a dragon. Odd huh?
+~
+	Race:		other
+	Gender:		Female
+	Level:		100
+	BaseHP:		1
+	MobFlags:	SENTINEL NO-SLEEP NO-BASH NO-BLIND ACIDBLOOD 
+	AffectFlags:	SENSE-LIFE TRACKING VACUUM-SAFE 
+	[Attributes]
+		Strength:	600
+		Health:		120
+		Coordination:	600
+		Agility:	1
+		Perception:	120
+		Knowledge:	120
+	[Attack]
+		Type:		blast
+		DamageType:	Slash
+		Damage:		60
+		Speed:		0.20
+[Mob 10]
+	Virtual:	10
+	Keywords:	clone
+	Name:		the clone
+	RoomDescription:$
+A boring old clone is standing here.
+~
+	Description:$
+This clone is nothing to look at.  No, really, it is quite boring.
+~
+	Race:		human
+	Gender:		Neutral
+	Level:		1
+	BaseHP:		1
+	MobFlags:	SENTINEL 
+	[Attributes]
+		Strength:	120
+		Health:		120
+		Coordination:	120
+		Agility:	120
+		Perception:	120
+		Knowledge:	120
+	[Attack]
+		Type:		hit
+		DamageType:	Blunt
+		Speed:		0.20
+[Mob 50]
+	Virtual:	50
+	Keywords:	shopkeeper default
+	Name:		a default shopkeeper
+	RoomDescription:$
+A default shopkeeper is here, accepting items in exchange for MPs.
+~
+	Description:$
+
+There's nothing to see!
+~
+	Race:		human
+	Gender:		Neutral
+	Level:		30
+	BaseHP:		1
+	MobFlags:	SENTINEL 
+	AffectFlags:	SENSE-LIFE DET-INVIS INFRA LIGHT 
+	[Attributes]
+		Strength:	120
+		Health:		120
+		Coordination:	120
+		Agility:	120
+		Perception:	120
+		Knowledge:	120
+	[Attack]
+		Type:		hit
+		DamageType:	Blunt
+		Speed:		0.20
+BREAK

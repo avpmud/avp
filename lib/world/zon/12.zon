@@ -1,0 +1,612 @@
+Name:		Company HQ <PoG>
+Comment:	Revised - 12/25/03
+[Reset]
+	Mode:		ALWAYS
+	Time:		20
+[Legacy]
+	Number:		12
+	Top:		1299
+[Builders]
+	Builder 1:	Rommel
+	Builder 2:	Dimension
+	Builder 3:	Vidarr
+[Resets/1]
+	Type:		Object
+	Object:		:10
+	Room:		:47
+	MaxInRoom:	1
+[Resets/2]
+	Type:		Trigger
+	Trigger:	:68
+	TriggerType:	Room
+	Room:		:47
+[Resets/3]
+	Type:		Object
+	Object:		:14
+	Room:		:69
+	MaxInRoom:	1
+[Resets/4]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:69
+	MaxInRoom:	1
+[Resets/5]
+	Type:		Object
+	Object:		:65
+	Room:		:69
+	MaxInRoom:	1
+[Resets/6]
+	Type:		Object
+	Object:		141:87
+	Room:		:69
+	MaxInRoom:	1
+[Resets/7]
+	Type:		Mobile
+	Mobile:		:70
+	Room:		:69
+	MaxInGame:	1
+[Resets/8]
+	Type:		Object
+	Object:		76:72
+	Room:		:69
+	MaxInRoom:	1
+[Resets/9]
+	Type:		Mobile
+	Mobile:		:69
+	Room:		:68
+	MaxInGame:	1
+[Resets/10]
+	Type:		Mobile
+	Mobile:		:70
+	Room:		:68
+	MaxInGame:	1
+[Resets/11]
+	Type:		Object
+	Object:		:60
+	Room:		:65
+	MaxInRoom:	1
+[Resets/12]
+	Type:		Object
+	Object:		:61
+	Room:		:65
+	MaxInRoom:	1
+[Resets/13]
+	Type:		Object
+	Object:		:62
+	Room:		:65
+	MaxInRoom:	1
+[Resets/14]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:74
+	MaxInRoom:	1
+	MaxInZone:	100
+[Resets/15]
+	Type:		Object
+	Object:		:13
+	Room:		:6
+	MaxInRoom:	1
+[Resets/16]
+	Type:		Trigger
+	Trigger:	fearitself:7
+	TriggerType:	Room
+	Room:		:10
+[Resets/17]
+	Type:		Remove
+	Object:		:20
+	Room:		:10
+[Resets/18]
+	Type:		Object
+	Object:		:20
+	Room:		:10
+	MaxInGame:	1
+[Resets/19]
+	Type:		Remove
+	Object:		:21
+	Room:		:10
+[Resets/20]
+	Type:		Object
+	Object:		:21
+	Room:		:10
+	MaxInGame:	5
+[Resets/21]
+	Type:		Remove
+	Object:		:23
+	Room:		:10
+[Resets/22]
+	Type:		Object
+	Object:		:23
+	Room:		:10
+[Resets/23]
+	Type:		Mobile
+	Mobile:		:0
+	Room:		:10
+	MaxInGame:	1
+[Resets/24]
+	Type:		Command
+	Command:	sit
+	Dependent:	YES
+[Resets/25]
+	Type:		Door
+	Room:		:10
+	Direction:	west
+	State:		LOCKED
+[Resets/26]
+	Type:		Trigger
+	Trigger:	10:10
+	TriggerType:	Room
+	Room:		:10
+[Resets/27]
+	Type:		Remove
+	Object:		:81
+	Room:		:99
+[Resets/28]
+	Type:		Object
+	Object:		:81
+	Room:		:99
+[Resets/29]
+	Type:		Object
+	Object:		:4
+	Room:		:20
+	MaxInRoom:	1
+[Resets/30]
+	Type:		Mobile
+	Mobile:		:6
+	Room:		:3
+	MaxInRoom:	1
+[Resets/31]
+	Type:		Mobile
+	Mobile:		300:99
+	Room:		:27
+	MaxInRoom:	1
+[Resets/32]
+	Type:		Mobile
+	Mobile:		300:98
+	Room:		:26
+	MaxInRoom:	1
+[Resets/33]
+	Type:		Mobile
+	Mobile:		300:97
+	Room:		:29
+	MaxInRoom:	1
+[Resets/34]
+	Type:		Remove
+	Object:		:4
+	Room:		:1
+[Resets/35]
+	Type:		Object
+	Object:		:4
+	Room:		:1
+	Dependent:	YES
+[Resets/36]
+	Type:		Remove
+	Object:		:58
+	Room:		:98
+[Resets/37]
+	Type:		Object
+	Object:		:58
+	Room:		:98
+	Dependent:	YES
+[Resets/38]
+	Type:		Remove
+	Object:		:42
+	Room:		:40
+[Resets/39]
+	Type:		Object
+	Object:		:42
+	Room:		:40
+[Resets/40]
+	Type:		Trigger
+	Trigger:	:94
+	TriggerType:	Room
+	Room:		:2
+	MaxInGame:	1
+[Resets/41]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:5
+	MaxInRoom:	1
+[Resets/42]
+	Type:		Remove
+	Object:		:30
+	Room:		:5
+[Resets/43]
+	Type:		Object
+	Object:		:30
+	Room:		:5
+[Resets/44]
+	Type:		Remove
+	Object:		:0
+	Room:		:4
+[Resets/45]
+	Type:		Object
+	Object:		:0
+	Room:		:4
+[Resets/46]
+	Type:		Object
+	Object:		:46
+	Room:		:13
+	MaxInGame:	1
+[Resets/47]
+	Type:		Remove
+	Object:		:11
+	Room:		:9
+[Resets/48]
+	Type:		Object
+	Object:		:11
+	Room:		:9
+	MaxInGame:	200
+[Resets/49]
+	Type:		Door
+	Room:		:9
+	Direction:	east
+	State:		LOCKED
+[Resets/50]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:42
+	MaxInRoom:	1
+[Resets/51]
+	Type:		Object
+	Object:		:14
+	Room:		:42
+	MaxInRoom:	1
+[Resets/52]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:73
+	MaxInRoom:	1
+	MaxInZone:	100
+	MaxInGame:	10000
+[Resets/53]
+	Type:		Object
+	Object:		:14
+	Room:		:73
+	MaxInRoom:	1
+	MaxInGame:	1000
+[Resets/54]
+	Type:		Remove
+	Object:		224:49
+	Room:		:73
+[Resets/55]
+	Type:		Object
+	Object:		224:49
+	Room:		:73
+	MaxInRoom:	1
+[Resets/56]
+	Type:		Put
+	Object:		40:0
+	Container:	224:49
+[Resets/57]
+	Type:		Put
+	Object:		:75
+	Container:	224:49
+[Resets/58]
+	Type:		Put
+	Object:		:88
+	Container:	224:49
+[Resets/59]
+	Type:		Put
+	Object:		224:51
+	Container:	224:49
+[Resets/60]
+	Type:		Put
+	Object:		224:50
+	Container:	224:49
+[Resets/61]
+	Type:		Door
+	Room:		:85
+	Direction:	down
+	State:		CLOSED
+[Resets/62]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:80
+	MaxInRoom:	1
+[Resets/63]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:66
+	MaxInRoom:	1
+[Resets/64]
+	Type:		Object
+	Object:		:10
+	Room:		:66
+	MaxInRoom:	1
+[Resets/65]
+	Type:		Trigger
+	Trigger:	114:50
+	TriggerType:	Room
+	Room:		:66
+[Resets/66]
+	Type:		Object
+	Object:		108:25
+	Room:		:66
+	MaxInRoom:	1
+[Resets/67]
+	Type:		Object
+	Object:		:72
+	Room:		:66
+	MaxInRoom:	1
+[Resets/68]
+	Type:		Remove
+	Object:		:12
+	Room:		:0
+[Resets/69]
+	Type:		Object
+	Object:		:12
+	Room:		:0
+	MaxInGame:	200
+[Resets/70]
+	Type:		Object
+	Object:		:57
+	Room:		:0
+	MaxInGame:	1
+[Resets/71]
+	Type:		Remove
+	Object:		131:1
+	Room:		:0
+[Resets/72]
+	Type:		Object
+	Object:		131:1
+	Room:		:0
+	Dependent:	YES
+[Resets/73]
+	Type:		Object
+	Object:		:14
+	Room:		:76
+	MaxInRoom:	1
+[Resets/74]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:76
+	MaxInRoom:	1
+[Resets/75]
+	Type:		Trigger
+	Trigger:	140:92
+	TriggerType:	Room
+	Room:		:14
+[Resets/76]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:14
+	MaxInRoom:	1
+[Resets/77]
+	Type:		Object
+	Object:		131:1
+	Room:		:14
+	MaxInRoom:	1
+[Resets/78]
+	Type:		Object
+	Object:		24:96
+	Room:		:14
+	MaxInRoom:	1
+[Resets/79]
+	Type:		Remove
+	Object:		:14
+	Room:		:16
+[Resets/80]
+	Type:		Object
+	Object:		:14
+	Room:		:16
+	Dependent:	YES
+[Resets/81]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:16
+	MaxInRoom:	1
+[Resets/82]
+	Type:		Door
+	Room:		:16
+	Direction:	east
+	State:		CLOSED
+[Resets/83]
+	Type:		Remove
+	Object:		:3
+	Room:		:18
+[Resets/84]
+	Type:		Object
+	Object:		:3
+	Room:		:18
+	Dependent:	YES
+[Resets/85]
+	Type:		Remove
+	Object:		:1
+	Room:		:18
+[Resets/86]
+	Type:		Object
+	Object:		:1
+	Room:		:18
+	Dependent:	YES
+[Resets/87]
+	Type:		Put
+	Object:		198:99
+	Container:	:3
+	Repeat:		5
+[Resets/88]
+	Type:		Object
+	Object:		:35
+	Room:		:18
+	MaxInRoom:	1
+[Resets/89]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:24
+	MaxInRoom:	1
+[Resets/90]
+	Type:		Object
+	Object:		:93
+	Room:		:24
+	MaxInRoom:	1
+[Resets/91]
+	Type:		Object
+	Object:		129:99
+	Room:		:50
+	MaxInRoom:	1
+[Resets/92]
+	Type:		Object
+	Object:		:14
+	Room:		:50
+	MaxInRoom:	1
+[Resets/93]
+	Type:		Trigger
+	Trigger:	114:81
+	TriggerType:	Room
+	Room:		:50
+[Resets/94]
+	Type:		Trigger
+	Trigger:	140:92
+	TriggerType:	Room
+	Room:		:50
+[Resets/95]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:79
+	MaxInRoom:	1
+[Resets/96]
+	Type:		Object
+	Object:		:14
+	Room:		:79
+	MaxInRoom:	1
+[Resets/97]
+	Type:		Trigger
+	Trigger:	71:31
+	TriggerType:	Room
+	Room:		:79
+[Resets/98]
+	Type:		Trigger
+	Trigger:	140:92
+	TriggerType:	Room
+	Room:		:79
+[Resets/99]
+	Type:		Remove
+	Object:		36:36
+	Room:		:19
+[Resets/100]
+	Type:		Object
+	Object:		36:36
+	Room:		:19
+	Dependent:	YES
+[Resets/101]
+	Type:		Remove
+	Object:		131:1
+	Room:		:19
+[Resets/102]
+	Type:		Object
+	Object:		131:1
+	Room:		:19
+	Dependent:	YES
+[Resets/103]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:19
+	MaxInRoom:	1
+[Resets/104]
+	Type:		Remove
+	Object:		:14
+	Room:		:19
+[Resets/105]
+	Type:		Object
+	Object:		:14
+	Room:		:19
+	Dependent:	YES
+[Resets/106]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:78
+	MaxInRoom:	1
+[Resets/107]
+	Type:		Object
+	Object:		131:1
+	Room:		:78
+	MaxInRoom:	1
+[Resets/108]
+	Type:		Object
+	Object:		:86
+	Room:		:8
+	MaxInRoom:	1
+[Resets/109]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:39
+	MaxInRoom:	1
+[Resets/110]
+	Type:		Trigger
+	Trigger:	71:31
+	TriggerType:	Room
+	Room:		:39
+[Resets/111]
+	Type:		Door
+	Room:		:11
+	Direction:	east
+	State:		CLOSED
+[Resets/112]
+	Type:		Trigger
+	Trigger:	299:99
+	TriggerType:	Room
+	Room:		:84
+	MaxInGame:	1
+[Resets/113]
+	Type:		Door
+	Room:		:84
+	Direction:	west
+	State:		CLOSED
+[Resets/114]
+	Type:		Trigger
+	Trigger:	299:97
+	TriggerType:	Room
+	Room:		:84
+[Resets/115]
+	Type:		Object
+	Object:		131:1
+	Room:		:84
+	MaxInRoom:	1
+[Resets/116]
+	Type:		Object
+	Object:		299:99
+	Room:		:84
+	MaxInRoom:	1
+[Resets/117]
+	Type:		Remove
+	Object:		:41
+	Room:		:41
+[Resets/118]
+	Type:		Object
+	Object:		:41
+	Room:		:41
+[Resets/119]
+	Type:		Object
+	Object:		34:0
+	Room:		:46
+	MaxInRoom:	1
+[Resets/120]
+	Type:		Object
+	Object:		:72
+	Room:		:46
+	MaxInRoom:	1
+[Resets/121]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:46
+	MaxInRoom:	1
+[Resets/122]
+	Type:		Mobile
+	Mobile:		:1
+	Room:		:86
+	MaxInRoom:	1
+[Resets/123]
+	Type:		Object
+	Object:		236:2
+	Room:		:86
+	MaxInRoom:	1
+[Resets/124]
+	Type:		Trigger
+	Trigger:	:49
+	TriggerType:	Room
+	Room:		:49
+[Resets/125]
+	Type:		Door
+	Room:		:49
+	Direction:	east
+	State:		OPEN
+BREAK
