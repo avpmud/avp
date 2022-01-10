@@ -21,7 +21,7 @@
 #define __attribute__(x)	/* nothing */
 #endif
 
-
+#include <climits>
 #include <string.h>
 #include <list>
 #include <algorithm>	//	Too much depends on this from <string>

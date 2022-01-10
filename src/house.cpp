@@ -12,15 +12,12 @@
 [*] Usage: Player housing                                                 [*]
 \***************************************************************************/
 
-
-
+#include <typeinfo>
 
 #include "house.h"
-
 #include "buffer.h"
 #include "lexifile.h"
 #include "lexiparser.h"
-
 #include "descriptors.h"
 #include "comm.h"
 #include "interpreter.h"
@@ -32,7 +29,6 @@
 #include "characters.h"
 #include "objects.h"
 #include "olc.h"
-
 #include "files.h"
 
 

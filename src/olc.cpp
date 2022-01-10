@@ -4,6 +4,8 @@
  *  Copyright 1996 Harvey Gilpin.                                          *
  ***************************************************************************/
 
+#include <typeinfo>
+
 #include "structs.h"
 #include "interpreter.h"
 #include "comm.h"

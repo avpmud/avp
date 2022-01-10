@@ -6,13 +6,10 @@
 CC = g++
 
 # Any special flags you want to pass to the compiler
-MYFLAGS = -Wall -Wno-unused -Wno-sign-compare -Wno-switch -Wno-write-strings
-# -Weffc++
-#-fno-inline
+MYFLAGS = -Wall -Wno-unused -Wno-sign-compare -Wno-switch -Wno-write-strings -std=c++98 -fpermissive
 
 #flags for profiling (see hacker.doc for more information)
-PROFILE = 
-#PROFILE = -pg
+PROFILE =
 
 LIBS = -lz -lpcre -lpcrecpp 
 
@@ -43,7 +40,7 @@ LEXI = lexifile.cpp lexiparser.cpp
 OPTIMIZEDCPP = utils.cpp buffer.cpp lexistring.cpp
 C_FILES = comm.cpp $(ACTFILES) ban.cpp boards.cpp config.cpp constants.cpp db.cpp \
 	fight.cpp find.cpp graph.cpp handler.cpp house.cpp interpreter.cpp limits.cpp mail.cpp \
-	mobact.cpp modify.cpp objsave.cpp shop.cpp spec_assign.cpp spec_procs.cpp \
+	mobact.cpp modify.cpp shop.cpp spec_assign.cpp spec_procs.cpp \
 	weather.cpp races.cpp random.cpp log.cpp track.cpp \
 	$(OPTIMIZEDCPP) $(OLC) $(CUSTOMFILES) $(SCRIPTENGINE) \
 	$(CPPFILES) $(IMC) $(LEXI) network/protocols/TelnetProtocol.cpp 

@@ -3,6 +3,7 @@
 *  Usage: contains general functions for using scripts.                   *
 **************************************************************************/
 
+#include <memory>
  
 #include "structs.h"
 #include "scripts.h"

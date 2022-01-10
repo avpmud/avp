@@ -127,10 +127,12 @@ protected:
 	
 	static inline unsigned int CountBits(unsigned int v)
 	{
-		// see http://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetParallel
-		v -= (v >> 1) & 0x55555555; // temp  
-		v = (v & 0x33333333) + ((v >> 2) & 0x33333333); // temp 
-		return ((v + (v >> 4) & 0xF0F0F0F) * 0x1010101) >> 24; // count 
+    	unsigned int count = 0;
+    	while (v) {
+        	count += v & 1;
+        	v >>= 1;
+    	}
+    	return count;
 	}
 
 private:
