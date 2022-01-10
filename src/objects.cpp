@@ -1578,9 +1578,6 @@ void LoadPlayerObjectFile(CharData *ch)
 	if (isdigit(*objectFile.peek()))
 	{
 		objectFile.close();
-		
-		//	Classic object file system...
-		Crash_load(ch);
 		return;
 	}
 
@@ -1599,11 +1596,8 @@ void LoadPlayerObjectFile(CharData *ch)
 		
 		if (obj->InRoom() == NULL)
 		{
-			void auto_equip(CharData *ch, ObjData *obj, int locate);
-
 			int location = obj->WornOn();
 			obj->m_WornOn = -1;
-			auto_equip(ch, obj, location);	//	Change this later on
 		}
 	}
 	
@@ -1628,9 +1622,6 @@ void ShowPlayerObjectFile(CharData *ch, const char *name)
 	if (isdigit(*objectFile.peek()))
 	{
 		objectFile.close();
-		
-		//	Classic object file system...
-		Crash_listrent(ch, name);
 		return;
 	}
 	

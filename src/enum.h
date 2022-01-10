@@ -53,7 +53,7 @@ private:
 };
 
 template<typename Enum>
-const EnumNameResolverBase &GetEnumNameResolver();
+const EnumNameResolverBase &GetEnumNameResolver() {};
 
 template<typename Enum>
 const char **GetEnumNames()				{ return GetEnumNameResolver<Enum>().GetNames(); }

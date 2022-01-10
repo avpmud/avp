@@ -971,13 +971,9 @@ void heartbeat(int pulse) {
 	
 	if (auto_save && !(pulse % (60 RL_SEC))) {	/* 1 minute */
 		SavePersistentObjects();
-	//	if (++mins_since_crashsave >= autosave_time) {
-	//		mins_since_crashsave = 0;
-			Crash_save_all();
 			House::SaveAllHousesContents();
 			if (Clan::MarkedForSave())
 				Clan::Save();
-	//	}
 	}
 	
 	if (!(pulse % (5 * 60 RL_SEC)))	record_usage();				/* 5 minutes */
