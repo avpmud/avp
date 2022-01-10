@@ -3,8 +3,6 @@
 *  Usage: Primary code for characters                                    *
 *************************************************************************/
 
-
-
 #include "clans.h"
 #include "descriptors.h"
 #include "characters.h"
@@ -15,7 +13,6 @@
 #include "rooms.h"
 #include "db.h"
 #include "constants.h"
-
 
 void cedit_parse(DescriptorData *d, const char *arg);
 void cedit_setup(DescriptorData *d, Clan *clan);

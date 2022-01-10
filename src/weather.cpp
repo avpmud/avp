@@ -13,7 +13,6 @@
 \***************************************************************************/
 
 #include "weather.h"
-
 #include "descriptors.h"
 #include "zones.h"
 #include "characters.h"

@@ -17,7 +17,6 @@
 #ifndef __VIRTUALID_H__
 #define __VIRTUALID_H__
 
-
 #include "types.h"
 #include "lexistring.h"
 

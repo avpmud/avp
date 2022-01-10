@@ -13,14 +13,12 @@
 [*]        Replaces traditional Diku VNums                                [*]
 \***************************************************************************/
 
-
-#include "virtualid.h"
 #include <map>
 
+#include "virtualid.h"
 #include "zones.h"
 #include "interpreter.h"
 #include "buffer.h"
-
 
 namespace VIDSystem
 {

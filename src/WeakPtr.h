@@ -2,8 +2,6 @@
 #ifndef __WEAK_PTR_H__
 #define __WEAK_PTR_H__
 
-
-
 class WeakPtrBase
 {
 protected:

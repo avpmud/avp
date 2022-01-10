@@ -25,7 +25,6 @@
 #include "buffer.h"
 #include "constants.h"
 
-
 /* obj command trigger types */
 static const Flags OCMD_EQUIP = (1 << 0);		/* obj must be in char's equip */
 static const Flags OCMD_INVEN = (1 << 1);		/* obj must be in char's inven */
