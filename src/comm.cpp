@@ -257,36 +257,22 @@ void copyover_recover(void) {
 	fclose (fp);
 }
 
-
-extern void TestParser();
-extern void TestNumericSort();
 extern void RunStringCRC32Test();
 extern void test();
-
 extern void InitializeFloatingEffectiveTiers();
-
 
 int main(int argc, char **argv) {
 	int pos = 1;
 	char *dir;
 	
 	//	Run-time safety checks!
-	assert(sizeof(Lexi::String) == Lexi::String::buffered_size);
-	
+	//assert(sizeof(Lexi::String) == Lexi::String::buffered_size);
+
 	Buffer::Init();
 	
 #if defined(_WIN32) && 0
-//	TestNumericSort();
-//	TestParser();
-
 	{
 		BUFFER(buf, MAX_STRING_LENGTH);
-/*		strcpy(buf, "10392.0000");			fix_float(buf);		printf("Test: %s\n", buf);
-		strcpy(buf, "0.0000");				fix_float(buf);		printf("Test: %s\n", buf);
-		strcpy(buf, "0.000000003448");		fix_float(buf);		printf("Test: %s\n", buf);
-		strcpy(buf, "0.0490000004943");		fix_float(buf);		printf("Test: %s\n", buf);
-		strcpy(buf, "239823.0930930039");	fix_float(buf);		printf("Test: %s\n", buf);
-*/
 		extern void ScriptEnginePrintDouble(char *result, double d);
 		ScriptEnginePrintDouble(buf, 10392.0000);			printf("Test: %s\n", buf);
 		ScriptEnginePrintDouble(buf, 0.0000);				printf("Test: %s\n", buf);
@@ -294,7 +280,6 @@ int main(int argc, char **argv) {
 		ScriptEnginePrintDouble(buf, 0.0490000004943);		printf("Test: %s\n", buf);
 		ScriptEnginePrintDouble(buf, 239823.0930930039);	printf("Test: %s\n", buf);
 	}
-	
 #endif
 
 	port = DFLT_PORT;
