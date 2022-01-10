@@ -2,9 +2,7 @@
 #ifndef __LEXILIST_H__
 #define __LEXILIST_H__
 
-
 #include <iterator>
-
 #include <cassert>
 #include <cstddef>
 

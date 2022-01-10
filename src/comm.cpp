@@ -15,8 +15,6 @@
 #define __COMM_C__
 
 #include "types.h"
-
-
 #include <stdarg.h>
 #include <time.h>
 
@@ -38,7 +36,6 @@
 # include <sys/wait.h>
 #endif
 
-
 #include "structs.h"
 #include "db.h"
 #include "utils.h"
@@ -52,13 +49,11 @@
 #include "olc.h"
 #include "event.h"
 #include "ident.h"
-//#include "space.h"
 #include "constants.h"
 #include "mail.h"
 
 #include "imc/imc.h"
-//#include "imc-mercbase.h"
-//#include "icec-mercbase.h"
+
 
 #ifdef HAVE_ARPA_TELNET_H
 #include <arpa/telnet.h>

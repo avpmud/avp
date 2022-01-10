@@ -8,7 +8,6 @@
 
 #include "lexistring.h"
 
-
 extern Lexi::String	fread_lexistring(FILE *fl, char *error, const char *filename);
 extern Lexi::String	fread_action(FILE * fl, int nr);
 

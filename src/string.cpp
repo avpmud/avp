@@ -1,9 +1,6 @@
 
 #include "string.h"
 
-
-
-
 SInt32 String::Length(void) const {
 	return strlen(this->str->string);
 }

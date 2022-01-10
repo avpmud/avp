@@ -12,13 +12,10 @@
 [*] Usage: Meta class for the primary interactive objects                 [*]
 \***************************************************************************/
 
-
 #include "entity.h"
 #include "scripts.h"
 #include "lexilist.h"
 #include "utils.h"
-
-
 
 Entity::Entity()
 :	m_ID(0)

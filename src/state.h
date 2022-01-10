@@ -2,7 +2,6 @@
 #include "types.h"
 #include <map>
 
-
 class State;
 class StateMachine;
 

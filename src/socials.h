@@ -8,7 +8,6 @@
 
 #include "types.h"
 #include "characters.h"
-
 #include "lexistring.h"
 
 class Social

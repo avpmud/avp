@@ -10,10 +10,8 @@
 [*] Usage: Skill classes and enums                                        [*]
 \***************************************************************************/
 
-
 #include "types.h"
 #include "character.defs.h"
-
 
 enum Difficulty {
 	Routine		= 30,

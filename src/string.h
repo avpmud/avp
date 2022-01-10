@@ -5,7 +5,6 @@
 #include "types.h"
 #include "utils.h"
 
-
 class StringContainer;
 class String;
 

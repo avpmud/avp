@@ -16,10 +16,8 @@
 #ifndef __LEXISHAREDSTRING_H__
 #define __LEXISHAREDSTRING_H__
 
-
 #include "lexistring.h"
 #include "SharedPtr.h"
-
 
 namespace Lexi
 {

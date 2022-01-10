@@ -8,16 +8,12 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 ************************************************************************ */
 
-
 /*
  * You can define or not define TRACK_THOUGH_DOORS, depending on whether
  * or not you want track to find paths which lead through closed or
  * hidden doors.
  */
 #define TRACK_THROUGH_DOORS	0
-
-
-
 
 #include "structs.h"
 #include "scripts.h"
@@ -30,7 +26,6 @@
 #include "db.h"
 #include "spells.h"
 #include "constants.h"
-
 
 /* Locals */
 int find_first_step(RoomData *room, char *target);

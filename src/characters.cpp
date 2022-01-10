@@ -3,6 +3,10 @@
 *  Usage: Primary code for characters                                    *
 *************************************************************************/
 
+#include <math.h>
+#include <stdarg.h>
+#include <map>
+#include <vector>
 
 #include "structs.h"
 #include "utils.h"
@@ -20,15 +24,8 @@
 #include "handler.h"
 #include "spells.h"
 #include "track.h"
-//#include "space.h"
 #include "find.h"
 #include "constants.h"
-
-#include <math.h>
-#include <stdarg.h>
-#include <map>
-#include <vector>
-
 #include "lexifile.h"
 #include "lexiparser.h"
 

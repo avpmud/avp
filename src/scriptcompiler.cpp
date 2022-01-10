@@ -12,6 +12,7 @@
 [*] Usage: Script compiler and virtual machine                            [*]
 \***************************************************************************/
 
+#include <math.h>
 
 #include "scripts.h"
 #include "buffer.h"
@@ -23,9 +24,6 @@
 #include "rooms.h"
 #include "objects.h"
 #include "event.h"
-
-#include <math.h>
-
 
 extern LexiScriptCommands::Commands lookup_script_line(const char *p);
 

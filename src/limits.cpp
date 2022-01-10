@@ -8,8 +8,6 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 ************************************************************************ */
 
-
-
 #include "structs.h"
 #include "utils.h"
 #include "buffer.h"
@@ -21,7 +19,6 @@
 #include "find.h"
 #include "event.h"
 #include "house.h"
-
 
 void hour_update(void);
 int graf(int age, int p0, int p1, int p2, int p3, int p4, int p5, int p6);

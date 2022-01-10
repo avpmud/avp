@@ -15,14 +15,11 @@
 
 #include "types.h"
 #include "lexifile.h"
-
 #include "internal.defs.h"
 #include "buffer.h"
 #include "utils.h"
-
 #include "virtualid.h"
 #include "zones.h"
-
 
 Lexi::BufferedFile::BufferedFile(const char *name) :
 	m_pBuffer(NULL),

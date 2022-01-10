@@ -3,8 +3,6 @@
 *  Usage: Primary code for scripts and triggers                          *
 *************************************************************************/
 
-
-
 #include "scripts.h"
 #include "scriptcompiler.h"
 #include "buffer.h"
@@ -15,9 +13,7 @@
 #include "comm.h"
 #include "rooms.h"
 #include "handler.h"
-
 #include "constants.h"
-
 #include "lexifile.h"
 #include "lexiparser.h"
 

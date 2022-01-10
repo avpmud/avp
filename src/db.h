@@ -11,11 +11,10 @@
 #ifndef __DB_H__
 #define __DB_H__
 
-#include "types.h"
-
-#include "lexistring.h"
-
 #include <list>
+
+#include "types.h"
+#include "lexistring.h"
 
 #define WORLD_BASE		"world/"			/* room definitions		*/
 #define WLD_PREFIX		"world/wld/"	/* room definitions		*/

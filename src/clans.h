@@ -15,12 +15,11 @@
 #ifndef __CLANS_H__
 #define __CLANS_H__
 
-#include "index.h"
-
 #include <list>
+
+#include "index.h"
 #include "lexistring.h"
 #include "bitflags.h"
-
 #include "relation.h"
 
 namespace Lexi {

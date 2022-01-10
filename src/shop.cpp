@@ -14,7 +14,6 @@
 
 #define __SHOP_C__
 
-
 #include "structs.h"
 #include "buffer.h"
 #include "comm.h"

@@ -7,7 +7,6 @@
 #define __BAN_H__
 
 #include "types.h"
-
 #include "lexilist.h"
 #include "lexistring.h"
 

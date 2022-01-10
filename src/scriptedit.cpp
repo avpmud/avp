@@ -25,7 +25,6 @@
 #include "olc.h"
 #include "event.h"
 #include "constants.h"
-
 #include "lexifile.h"
 
 /* function protos */

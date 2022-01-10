@@ -7,28 +7,22 @@
 #ifndef	__CHARACTERS_H__
 #define __CHARACTERS_H__
 
-#include "types.h"
-
-#include "lexistring.h"
-#include "lexisharedstring.h"
-#include "lexilist.h"
 #include <list>
 #include <vector>
 #include <map>
 
+#include "types.h"
+#include "lexistring.h"
+#include "lexisharedstring.h"
+#include "lexilist.h"
 #include "entity.h"
-
 #include "event.h"
-
 #include "opinion.h"
 #include "alias.h"
 #include "clans.h"
 #include "races.h"
 #include "timercommand.h"
-
 #include "affects.h"
-//#include "PersonalPtr.h"
-
 
 class	Affect;
 class	Path;

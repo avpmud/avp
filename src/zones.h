@@ -18,17 +18,15 @@
 #define __ZONES_H__
 
 
-//	Commnet to revert to old system
+//	Comment to revert to old system
 //#define NEW_ZRESET_TYPES
 
+#include <vector>
 
 #include "lexistring.h"
 #include "lexilist.h"
 #include "bitflags.h"
-#include <vector>
-
 #include "virtualid.h"
-
 #include "characters.h"
 #include "objects.h"
 #include "scripts.h"

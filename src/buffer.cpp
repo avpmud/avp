@@ -15,7 +15,6 @@
 
 #define _BUFFER_C_
 
-
 #include "structs.h"
 #include "utils.h"
 #include "buffer.h"

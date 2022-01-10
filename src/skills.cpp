@@ -24,7 +24,6 @@
 #include "affects.h"
 #include "buffer.h"
 
-
 extern EVENT(combat_event);
 extern char *dirs[];
 extern char *dir_text_2[];

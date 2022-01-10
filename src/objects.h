@@ -3,24 +3,19 @@
 *  Usage: Header file for objects                                        *
 *************************************************************************/
 
-
 #ifndef	__OBJECTS_H__
 #define __OBJECTS_H__
-
-#include "types.h"
 
 #include <float.h>
 #include <list>
 #include <map>
+
+#include "types.h"
 #include "lexilist.h"
 #include "lexistring.h"
-
 #include "entity.h"
-
 #include "index.h"
-
 #include "event.h"
-
 #include "extradesc.h"
 #include "affects.h"
 #include "races.h"

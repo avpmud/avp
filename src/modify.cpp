@@ -8,8 +8,6 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 **************************************************************************/
 
-
-
 #include "structs.h"
 #include "utils.h"
 #include "buffer.h"
@@ -21,9 +19,7 @@
 #include "mail.h"
 #include "boards.h"
 #include "olc.h"
-
 #include "lexifile.h"
-
 
 /*
  * Action modes for parse_action().

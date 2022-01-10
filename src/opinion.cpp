@@ -3,15 +3,14 @@
 *  Usage: Code file for opinion system                                   *
 *************************************************************************/
 
+#include <algorithm>
+
 #include "opinion.h"
 #include "characters.h"
 #include "descriptors.h"
 #include "rooms.h"
 #include "index.h"
 #include "utils.h"
-
-#include <algorithm>
-
 
 Opinion::Opinion(void) :
 	m_Sexes(0),

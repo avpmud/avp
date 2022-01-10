@@ -16,7 +16,6 @@
 #include "constants.h"
 #include "zones.h"
 
-
 ACMD(do_flee);
 ACMD(do_hit);
 

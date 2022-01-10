@@ -3,7 +3,6 @@
 
 #include "entity.h"
 #include "character.defs.h"
-
 #include "lexilist.h"
 
 #define flabs(i)	((i) < 0 ? -(i) : (i))

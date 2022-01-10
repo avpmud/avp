@@ -8,12 +8,10 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 ************************************************************************ */
 
-
-#include "types.h"
-
 #include <math.h>
 #include <vector>
 
+#include "types.h"
 #include "structs.h"
 #include "utils.h"
 #include "buffer.h"
@@ -29,8 +27,6 @@
 #include "track.h"
 #include "constants.h"
 #include "files.h"
-
-
 
 class CombatMessageSet
 {

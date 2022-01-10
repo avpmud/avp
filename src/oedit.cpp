@@ -4,7 +4,6 @@
  * Original author: Levork                                              *
  ************************************************************************/
 
-
 #include "characters.h"
 #include "descriptors.h"
 #include "zones.h"
@@ -24,7 +23,6 @@
 #include "affects.h"
 #include "staffcmds.h"
 #include "constants.h"
-
 #include "lexifile.h"
 
 /*------------------------------------------------------------------------*/

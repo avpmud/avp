@@ -1,7 +1,5 @@
 #include "state.h"
 
-
-
 tHash HashStr(const char *str)
 {
 	tHash hash = 0xffffffff;

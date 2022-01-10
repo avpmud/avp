@@ -16,7 +16,6 @@
 #ifndef __LEXISTRING_H__
 #define __LEXISTRING_H__
 
-
 #if !defined(__GNUC__)
 #define __attribute__(x)	/* nothing */
 #endif
@@ -25,7 +24,6 @@
 #include <string.h>
 #include <list>
 #include <algorithm>	//	Too much depends on this from <string>
-
 
 namespace Lexi
 {

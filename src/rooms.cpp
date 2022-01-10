@@ -3,6 +3,7 @@
 *  Usage: Primary code for rooms                                         *
 *************************************************************************/
 
+#include <stdarg.h>
 
 #include "rooms.h"
 #include "zones.h"
@@ -16,17 +17,11 @@
 #include "files.h"
 #include "find.h"
 #include "comm.h"
-#include <stdarg.h>
-
 #include "constants.h"
-
 #include "idmap.h"
-
 #include "lexifile.h"
 #include "lexiparser.h"
-
 #include "olc.h"
-
 
 RoomMap	world;
 

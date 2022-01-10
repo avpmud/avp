@@ -6,13 +6,11 @@
 #ifndef __OPINION_H__
 #define __OPINION_H__
 
-#include "types.h"
-
 #include <list>
 
+#include "types.h"
 #include "bitflags.h"
 #include "virtualid.h"
-
 
 class Opinion
 {

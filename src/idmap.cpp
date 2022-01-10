@@ -1,6 +1,4 @@
-
 #include "idmap.h"
-
 
 IDMap::IDMap()
 :	m_Capacity(0)

@@ -12,8 +12,6 @@
 [*] Usage: Help system code                                               [*]
 \***************************************************************************/
 
-
-
 #include "help.h"
 #include "characters.h"
 #include "buffer.h"
@@ -23,8 +21,6 @@
 #include "lexifile.h"
 #include "db.h"
 #include "files.h"
-
-
 
 class HelpManagerImplementation : public HelpManager
 {

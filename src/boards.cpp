@@ -1,8 +1,21 @@
+/***************************************************************************\
+[*]    __     __  ___                ___  | LexiMUD is a C++ MUD codebase [*]
+[*]   / /  ___\ \/ (_) /\/\  /\ /\  /   \ |        for Sci-Fi MUDs        [*]
+[*]  / /  / _ \\  /| |/    \/ / \ \/ /\ / | Copyright(C) 2007             [*]
+[*] / /__|  __//  \| / /\/\ \ \_/ / /_//  | All rights reserved           [*]
+[*] \____/\___/_/\_\_\/    \/\___/___,'   | Chris Jacobson (FearItself)   [*]
+[*]      A Creation of the AvP Team!      | fearitself@avpmud.com         [*]
+[-]---------------------------------------+-------------------------------[-]
+[*] Original LexiMUD Code                                                 [*]
+[-]-----------------------------------------------------------------------[-]
+[*] File : boards.cpp                                                     [*]
+[*] Usage: General purpose boards for communication                       [*]
+\***************************************************************************/
+
+#include <map>
 
 #include "types.h"
-
 #include "boards.h"
-
 #include "objects.h"
 #include "descriptors.h"
 #include "characters.h"
@@ -15,8 +28,6 @@
 #include "handler.h"
 #include "find.h"
 #include "files.h"
-
-#include <map>
 #include "lexifile.h"
 
 ACMD(do_respond);

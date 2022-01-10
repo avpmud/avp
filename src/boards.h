@@ -13,14 +13,13 @@
 #ifndef __BOARDS_H__
 #define __BOARDS_H__
 
-#include "types.h"
+#include <list>
+#include <map>
 
+#include "types.h"
 #include "virtualid.h"
 #include "characters.h"
 #include "objects.h"
-
-#include <list>
-#include <map>
 
 /* sorry everyone, but inorder to allow for board memory, I had to make
    this in the following nasty way.  Sorri. */

@@ -1,6 +1,5 @@
 #include "conf.h"
 #include "sysdep.h"
-
 #include "queue.h"
 
 //	External variables

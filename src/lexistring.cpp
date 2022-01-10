@@ -13,17 +13,14 @@
 [*]        reimplementation, optimized for speed and memory               [*]
 \***************************************************************************/
 
-
-#include "types.h"
-
-#include "lexistring.h"
-#include "buffer.h"
 #include <stdexcept>
 #include <cstdarg>
 
+#include "types.h"
+#include "lexistring.h"
+#include "buffer.h"
 
 using namespace Lexi;
-
 
 extern const char *str_str(const char *cs, const char *ct);
 	

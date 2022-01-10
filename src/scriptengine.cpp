@@ -3,8 +3,11 @@
 *  Usage: contains general functions for using scripts.                   *
 **************************************************************************/
 
+#include <map>
+#include <math.h>
 #include <memory>
- 
+#include <pcrecpp.h>
+
 #include "structs.h"
 #include "scripts.h"
 #include "utils.h"
@@ -22,11 +25,6 @@
 #include "constants.h"
 #include "affects.h"
 #include "track.h"
-
-#include <pcrecpp.h>
-
-#include <map>
-#include <math.h>
 
 //	External Functions
 char *scriptedit_get_class(TrigData *trig);

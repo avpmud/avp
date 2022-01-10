@@ -10,7 +10,6 @@
 #include "buffer.h"
 #include "utils.h"
 
-
 char *fread_action(FILE * fl, int nr);
 
 

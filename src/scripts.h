@@ -15,8 +15,6 @@
 
 #include "types.h"
 #include "index.h"
-//#include "scriptcompiler.h"
-
 #include "ManagedPtr.h"
 #include "SharedPtr.h"
 #include "lexilist.h"

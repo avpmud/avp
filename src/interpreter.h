@@ -13,7 +13,6 @@
 
 #include "types.h"
 
-
 // New ACMD:
 #if 0
 class ActionCommand

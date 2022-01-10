@@ -6,12 +6,9 @@
 **************************************************************************/
 
 #include "types.h"
-
 #include "virtualid.h"
 #include "lexilist.h"
-
 #include "index.h"
-
 #include "objects.h"
 #include "characters.h"
 

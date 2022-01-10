@@ -3,12 +3,9 @@
 *  Usage: Primary code for indexes                                       *
 *************************************************************************/
 
-
-
 #include "index.h"
 #include "interpreter.h"
 #include "zones.h"
-
 
 IndexBase::~IndexBase()
 {

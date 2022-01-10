@@ -11,7 +11,6 @@
 
 #include <vector>
 
-
 #if 1
 // Extra description: used in objects, mobiles, and rooms
 class ExtraDesc// : public Lexi::Shareable

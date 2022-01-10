@@ -2,10 +2,10 @@
 #ifndef __TRACK_H__
 #define __TRACK_H__
 
+#include <vector>
+
 #include "types.h"
 #include "rooms.h"
-
-#include <vector>
 
 class TrackStep
 {

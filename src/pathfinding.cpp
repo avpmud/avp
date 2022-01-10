@@ -1,17 +1,12 @@
-#include "types.h"
-
 #include <vector>
 #include <iostream>
 
+#include "types.h"
 #include "rooms.h"
-
 #include "lexilist.h"
-
-#define MAX_SEARCH_NODES	256
-
-
 #include "WeakPtr.h"
 
+#define MAX_SEARCH_NODES	256
 
 struct fooptr : public WeakPointable
 {

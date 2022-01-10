@@ -8,9 +8,7 @@
 
 #include "types.h"
 #include "characters.h"
-
 #include "scripts.h"
-
 #include "weather.h"
 #include "objects.h"
 #include "rooms.h"
@@ -19,7 +17,6 @@
 #include "zones.h"
 #include "socials.h"
 #include "help.h"
-
 #include "WeakPtr.h"
 
 //	Include a short explanation of each field in your zone files,

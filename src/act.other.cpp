@@ -8,7 +8,7 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 ************************************************************************ */
 
-
+#include <sys/stat.h>
 
 #include "structs.h"
 #include "utils.h"
@@ -25,8 +25,6 @@
 #include "event.h"
 #include "constants.h"
 #include "clans.h"
-
-#include <sys/stat.h>
 
 /* extern variables */
 extern int nameserver_is_slow;

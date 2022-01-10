@@ -5,8 +5,6 @@
  * for use with OasisOLC
  */
 
-
-
 #include "help.h"
 #include "descriptors.h"
 #include "interpreter.h"
@@ -16,7 +14,6 @@
 #include "olc.h"
 #include "buffer.h"
 #include "handler.h"
-
 #include "lexifile.h"
 
 /* function protos */

@@ -8,7 +8,6 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 ************************************************************************ */
 
-
 /* utility */
 bool		isname(const char *str, const char *namelist);
 char *		fname(const char *namelist);

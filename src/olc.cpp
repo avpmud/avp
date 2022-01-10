@@ -27,7 +27,6 @@
 #include "lexifile.h"
 #include "house.h"
 
-
 //	External Functions.
 extern void zedit_setup(DescriptorData *d, RoomData *room_num);
 extern void zedit_save_to_disk(ZoneData *zone);

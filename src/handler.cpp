@@ -8,9 +8,6 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 ************************************************************************ */
 
-
-
-
 #include "structs.h"
 #include "utils.h"
 #include "scripts.h"
@@ -22,8 +19,6 @@
 #include "spells.h"
 #include "event.h"
 #include "find.h"
-//#include "space.h"
-
 
 /* external functions */
 ACMD(do_return);

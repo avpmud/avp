@@ -15,11 +15,10 @@
 #ifndef __WEATHER_H__
 #define __WEATHER_H__
 
-#include "types.h"
-
-#include "bitflags.h"
 #include <list>
 
+#include "types.h"
+#include "bitflags.h"
 
 namespace Weather
 {

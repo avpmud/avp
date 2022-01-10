@@ -14,9 +14,6 @@ Written by Jeremy Elson (jelson@cs.jhu.edu)
 
 *************************************************************************/
 
-
-
-
 #include "characters.h"
 #include "descriptors.h"
 #include "objects.h"

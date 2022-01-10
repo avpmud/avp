@@ -1,6 +1,4 @@
 
-
-
 #include "structs.h"
 #include "utils.h"
 #include "comm.h"

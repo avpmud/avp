@@ -8,9 +8,6 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 ************************************************************************ */
 
-
-
-
 //	New bootup procedure:
 //		Load list of zone filenames:	world/zones
 //			Requires: List of zone filenames
@@ -33,10 +30,7 @@
 //	To be added - post-load number resolution system
 //		(mob clans, zone renumbers, etc)
 
-
-
-
-
+#include <stdarg.h>
 
 #include "structs.h"
 #include "utils.h"
@@ -58,11 +52,8 @@
 #include "olc.h"
 #include "constants.h"
 #include "weather.h"
-
 #include "lexifile.h"
 #include "lexiparser.h"
-
-#include <stdarg.h>
 
 void init_char(CharData * ch);
 void CheckRegenRates(CharData *ch);

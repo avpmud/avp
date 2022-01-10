@@ -3,8 +3,6 @@
 *  Usage: Primary code for descriptors                                   *
 *************************************************************************/
 
-#include "types.h"
-
 #ifdef _WIN32
 # include <winsock2.h>
 #endif
@@ -12,16 +10,16 @@
 # include <sys/socket.h>
 #endif
 
-#include "network/protocols/Telnet.h"
-
+#include "types.h"
 #include "descriptors.h"
 #include "characters.h"
 #include "utils.h"
 #include "interpreter.h"
 #include "olc.h"
 #include "comm.h"
-
 #include "buffer.h"
+
+#include "network/protocols/Telnet.h"
 
 DescriptorList descriptor_list;	//	master desc list
 

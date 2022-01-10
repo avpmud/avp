@@ -1,13 +1,10 @@
 #include <stdarg.h>
 
-
-
 #include "descriptors.h"
 #include "characters.h"
 #include "utils.h"
 #include "comm.h"
 #include "buffer.h"
-
 
 void mudlogf(int type, int level, bool file, const char *format, ...) {
 	va_list args;

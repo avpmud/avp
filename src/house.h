@@ -16,13 +16,11 @@
 #ifndef __HOUSE_H__
 #define __HOUSE_H__
 
-
-#include "types.h"
-
-#include "lexistring.h"
-
 #include <map>
 #include <vector>
+
+#include "types.h"
+#include "lexistring.h"
 
 namespace Lexi
 {

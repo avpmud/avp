@@ -8,7 +8,6 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 ************************************************************************ */
 
-
 #include "lexisharedstring.h"
 
 /******* MUD MAIL SYSTEM HEADER FILE *********************

@@ -3,9 +3,7 @@
 
 #include "types.h"
 #include "interpreter.h"
-
 #include "SharedPtr.h"
-
 
 typedef unsigned int bytecode_t;
 

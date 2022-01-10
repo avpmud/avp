@@ -8,7 +8,6 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 ************************************************************************ */
 
-
 #include "characters.h"
 #include "rooms.h"
 #include "objects.h"
@@ -23,7 +22,6 @@
 #include "clans.h"
 #include "staffcmds.h"
 #include "zones.h"
-
 
 void speech_mtrigger(CharData *actor, const char *str);
 void speech_otrigger(CharData *actor, const char *str);

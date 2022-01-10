@@ -8,7 +8,6 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 ************************************************************************ */
 
-
 #include "characters.h"
 #include "rooms.h"
 #include "objects.h"

@@ -5,7 +5,6 @@
 
 #include "lexisharedstring.h"
 
-
 /*
 inline bool operator== (const char *ptr, const String & str) {
 	return str.compare(ptr);

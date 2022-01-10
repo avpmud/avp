@@ -3,7 +3,6 @@
  * Copyright 1996 Harvey Gilpin.                                        *
  ************************************************************************/
 
-
 #include "characters.h"
 #include "descriptors.h"
 #include "zones.h"
@@ -20,9 +19,7 @@
 #include "opinion.h"
 #include "objects.h"
 #include "constants.h"
-
 #include "lexifile.h"
-
 
 /*
  * External variable declarations.

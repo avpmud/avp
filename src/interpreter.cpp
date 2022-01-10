@@ -23,11 +23,7 @@
 #include "event.h"
 #include "constants.h"
 #include "boards.h"
-
 #include "staffcmds.h"
-
-//#include "imc-mercbase.h"
-//#include "icec-mercbase.h"
 #include "imc/imc.h"
 
 extern int circle_restrict;

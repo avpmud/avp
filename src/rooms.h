@@ -7,21 +7,15 @@
 #define __ROOMS_H__
 
 #include "types.h"
-
 #include "lexistring.h"
 #include "lexilist.h"
 #include "bitflags.h"
-
 #include "entity.h"
 #include "virtualid.h"
 #include "races.h"
-
 #include "internal.defs.h"
-
 #include "ManagedPtr.h"
-
 #include "extradesc.h"
-
 
 class RoomData;
 class RoomExit;

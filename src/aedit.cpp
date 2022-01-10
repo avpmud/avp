@@ -6,8 +6,6 @@
  * ftpable from ftp.circlemud.org:/pub/CircleMUD/contrib/code
  */
 
-
-
 #include "characters.h"
 #include "descriptors.h"
 #include "interpreter.h"

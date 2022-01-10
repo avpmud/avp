@@ -3,7 +3,8 @@
 *  Usage: Primary code for objects                                       *
 *************************************************************************/
 
-
+#include <map>
+#include <vector>
 
 #include "types.h"
 #include "objects.h"
@@ -23,10 +24,6 @@
 #include "find.h"
 #include "constants.h"
 #include "spells.h"
-
-#include <map>
-#include <vector>
-
 #include "lexiparser.h"
 #include "idmap.h"
 

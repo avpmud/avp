@@ -1,12 +1,10 @@
 #ifndef __SCRIPTVARIABLE_H__
 #define __SCRIPTVARIABLE_H__
 
-#include "types.h"
-#include "lexistring.h"
-
 #include <vector>
 
-//#define SCRIPTVAR_TRACKING
+#include "types.h"
+#include "lexistring.h"
 
 namespace Lexi 
 {

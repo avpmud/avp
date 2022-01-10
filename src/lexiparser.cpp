@@ -14,14 +14,10 @@
 [*]        The Lexi file format is heavily derived from 
 \***************************************************************************/
 
-//#include "types.h"
-//#include "internal.defs.h"
 #include "buffer.h"
 #include "utils.h"
 #include "interpreter.h"
-
 #include "lexiparser.h"
-
 
 int str_cmp_numeric(const char *arg1, const char *arg2);
 

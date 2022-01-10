@@ -3,7 +3,6 @@
 *  Usage: Player-level information commands                              *
 *************************************************************************/
 
-
 #include "characters.h"
 #include "objects.h"
 #include "zones.h"
@@ -21,7 +20,6 @@
 #include "help.h"
 #include "extradesc.h"
 #include "spells.h"
-//#include "space.h"
 #include "constants.h"
 #include "weather.h"
 

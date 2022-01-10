@@ -12,7 +12,6 @@
 [*] Usage: Primary code for Affect class                                  [*]
 \***************************************************************************/
 
-
 #include "characters.h"
 #include "objects.h"
 #include "utils.h"
@@ -21,7 +20,6 @@
 #include "event.h"
 #include "spells.h"
 #include "constants.h"
-
 
 const Affect::Flags MAKE_BITSET(Affect::AFF_INVISIBLE_FLAGS, AFF_INVISIBLE, AFF_INVISIBLE_2);
 const Affect::Flags MAKE_BITSET(Affect::AFF_STEALTH_FLAGS, AFF_INVISIBLE, AFF_INVISIBLE_2, AFF_HIDE, AFF_COVER);

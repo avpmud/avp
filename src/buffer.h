@@ -15,10 +15,9 @@
 #ifndef __BUFFER_H__
 #define __BUFFER_H__
 
-
-#include "types.h"
 #include <stdlib.h>
 
+#include "types.h"
 
 //	CONFIGURABLES (aka, The place to shoot your own foot.) :)
 //	---------------------------------------------------------

@@ -19,7 +19,6 @@
 #include "weather.h"
 #include "interpreter.h"
 #include "staffcmds.h"
-
 #include "lexifile.h"
 
 /*-------------------------------------------------------------------*/

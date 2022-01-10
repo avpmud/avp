@@ -10,7 +10,6 @@
 #include "event.h"
 #include "bitflags.h"
 
-
 enum AffectFlag
 {
 	AFF_BLIND,				

@@ -1,14 +1,10 @@
-
-
 #include "races.h"
-
 #include "structs.h"
 #include "buffer.h"
 #include "interpreter.h"
 #include "utils.h"
 #include "spells.h"
 #include "constants.h"
-
 #include "lexistring.h"
 #include "lexiparser.h"
 

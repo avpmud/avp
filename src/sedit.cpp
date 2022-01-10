@@ -6,7 +6,6 @@
 *  Copyright 1996 Harvey Gilpin.                                          *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-
 #include "structs.h"
 #include "comm.h"
 #include "utils.h"
@@ -17,8 +16,6 @@
 #include "buffer.h"
 #include "constants.h"
 #include "interpreter.h"
-
-/*-------------------------------------------------------------------*/
 
 /*
  * Handy macros.

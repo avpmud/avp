@@ -1,13 +1,11 @@
 #ifndef __IDMAP_H__
 #define __IDMAP_H__
 
-
-#include "types.h"
-#include "entity.h"
-
 #include <utility>
 #include <vector>
 
+#include "types.h"
+#include "entity.h"
 
 class IDMap
 {

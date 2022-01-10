@@ -1,14 +1,10 @@
-
-#include "types.h"
-
 #include <list>
 
+#include "types.h"
 #include "lexistring.h"
-
 #include "buffer.h"
 #include "descriptors.h"
 #include "characters.h"
-
 #include "utils.h"
 #include "interpreter.h"
 

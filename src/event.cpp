@@ -8,7 +8,6 @@
 #include "queue.h"
 #include "utils.h"
 
-
 // New Event System
 
 extern UInt32 pulse;

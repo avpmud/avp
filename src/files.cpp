@@ -3,8 +3,6 @@
 *  Usage: Primary code for file handling                                 *
 *************************************************************************/
 
-
-
 #include "types.h"
 #include "utils.h"
 #include "buffer.h"
@@ -13,8 +11,6 @@
 
 // External variables
 extern FILE * logfile;
-
-
 
 /* read and allocate space for a '~'-terminated string from a given file */
 Lexi::String fread_lexistring(FILE * fl, char *error, const char *filename) {

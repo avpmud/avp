@@ -6,12 +6,10 @@
 #ifndef	__INDEX_H__
 #define __INDEX_H__
 
-#include "types.h"
-
 #include <vector>
 
+#include "types.h"
 #include "WeakPtr.h"
-
 #include "internal.defs.h"
 #include "scriptvariable.h"
 #include "virtualid.h"

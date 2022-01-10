@@ -7,9 +7,6 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /*. Original author: Levork .*/
 
-
-
-
 #include "structs.h"
 #include "comm.h"
 #include "utils.h"
@@ -20,10 +17,7 @@
 #include "buffer.h"
 #include "extradesc.h"
 #include "staffcmds.h"
-//#include "space.h"
 #include "constants.h"
-
-
 #include "lexifile.h"
 
 /*------------------------------------------------------------------------*/

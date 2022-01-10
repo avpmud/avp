@@ -3,8 +3,6 @@
 *  Usage: contains functions for finding mobs and objs in lists           *
 **************************************************************************/
 
-
-
 #include "structs.h"
 #include "utils.h"
 #include "find.h"
@@ -12,7 +10,6 @@
 #include "db.h"
 #include "interpreter.h"
 #include "buffer.h"
-
 
 int get_number(char *name) {
 	int i;

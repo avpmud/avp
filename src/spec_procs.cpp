@@ -8,7 +8,6 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 ************************************************************************ */
 
-
 #include "structs.h"
 #include "utils.h"
 #include "buffer.h"
@@ -18,7 +17,6 @@
 #include "find.h"
 #include "db.h"
 #include "spells.h"
-
 
 /*   external vars  */
 extern struct TimeInfoData time_info;

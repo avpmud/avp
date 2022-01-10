@@ -12,7 +12,6 @@
 [*] Usage: Player banishment system                                       [*]
 \***************************************************************************/
 
-
 #include "characters.h"
 #include "descriptors.h"
 #include "ban.h"
@@ -22,7 +21,6 @@
 #include "interpreter.h"
 #include "db.h"
 #include "staffcmds.h"
-
 
 Ban::List	Ban::ms_Bans;
 Lexi::StringList	Ban::ms_BadNames;

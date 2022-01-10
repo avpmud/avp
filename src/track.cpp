@@ -1,5 +1,4 @@
 #include "types.h"
-
 #include "track.h"
 #include "structs.h"
 #include "interpreter.h"

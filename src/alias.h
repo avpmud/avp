@@ -3,10 +3,10 @@
 #ifndef __ALIAS_H__
 #define __ALIAS_H__
 
-#include "types.h"
-
-#include "lexistring.h"
 #include <list>
+
+#include "types.h"
+#include "lexistring.h"
 
 class Alias {
 public:

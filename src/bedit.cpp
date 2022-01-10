@@ -3,8 +3,6 @@
 *  Usage: Primary code for characters                                    *
 *************************************************************************/
 
-
-
 #include "scripts.h"
 #include "descriptors.h"
 #include "characters.h"
@@ -13,7 +11,6 @@
 #include "interpreter.h"
 #include "comm.h"
 #include "buffer.h"
-
 
 void bedit_parse(DescriptorData *d, const char *arg);
 void bedit_setup_new(DescriptorData *d, const char *name);

@@ -10,8 +10,6 @@
 
 #define __CONFIG_C__
 
-
-
 #include "structs.h"
 
 //#define TRUE	1

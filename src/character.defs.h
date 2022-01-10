@@ -6,6 +6,4 @@
 #ifndef __CHARACTER_DEFS_H__
 #define __CHARACTER_DEFS_H__
 
-
-
 #endif

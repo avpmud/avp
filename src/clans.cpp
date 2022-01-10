@@ -12,7 +12,6 @@
 [*] Usage: Primary clan code                                              [*]
 \***************************************************************************/
 
-
 #include "clans.h"
 #include "characters.h"
 #include "interpreter.h"
@@ -27,7 +26,6 @@
 #include "constants.h"
 #include "handler.h"
 #include "staffcmds.h"
-
 #include "lexifile.h"
 #include "lexiparser.h"
 

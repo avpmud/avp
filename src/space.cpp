@@ -1,3 +1,5 @@
+#include <math.h>
+
 #include "utils.h"
 #include "db.h"
 #include "olc.h"
@@ -11,13 +13,9 @@
 #include "characters.h"
 #include "interpreter.h"
 #include "find.h"
-//#include "space.h"
 #include "spells.h"
 #include "event.h"
 #include "constants.h"
-
-#include <math.h>
-
 #include "lexifile.h"
 
 

@@ -1,6 +1,4 @@
 
-
-
 #include "structs.h"
 #include "utils.h"
 #include "find.h"
@@ -9,7 +7,6 @@
 #include "event.h"
 #include "spells.h"
 #include "constants.h"
-
 
 void explosion(ObjData *obj, CharData *ch, int dam, int type, RoomData *room, int shrapnel);
 int greet_mtrigger(CharData *actor, int dir);

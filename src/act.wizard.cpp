@@ -3,6 +3,9 @@
 *  Usage: Staff commands                                                 *
 *************************************************************************/
 
+#if defined(_WIN32)
+#include <direct.h>
+#endif
 
 #include "structs.h"
 #include "opinion.h"
@@ -28,12 +31,7 @@
 #include "constants.h"
 #include "help.h"
 #include "ban.h"
-
 #include "imc/imc.h"
-
-#if defined(_WIN32)
-#include <direct.h>
-#endif
 
 /* extern functions */
 void do_start(CharData *ch);

@@ -13,32 +13,24 @@
 [*] Usage: Zone class and support                                         [*]
 \***************************************************************************/
 
-
 #include "types.h"
 #include "buffer.h"
 #include "utils.h"
-
 #include "zones.h"
 #include "weather.h"
-
 #include "characters.h"
 #include "rooms.h"
 #include "objects.h"
 #include "scripts.h"
-
 #include "lexifile.h"
 #include "lexiparser.h"
-
 #include "utils.h"
 #include "files.h"
 #include "constants.h"
 #include "find.h"
 #include "interpreter.h"
 #include "db.h"
-
 #include "virtualid.h"
-
-
 
 class IReset
 {

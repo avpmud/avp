@@ -15,9 +15,9 @@
 #ifndef __HELP_H__
 #define __HELP_H__
 
-#include "types.h"
-
 #include <vector>
+
+#include "types.h"
 #include "lexistring.h"
 
 class HelpManager

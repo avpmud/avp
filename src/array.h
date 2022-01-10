@@ -3,7 +3,6 @@
 *  Usage: Header and inline code for arrays                              *
 *************************************************************************/
 
-
 #ifndef __ARRAY_H__
 #define __ARRAY_H__
 
